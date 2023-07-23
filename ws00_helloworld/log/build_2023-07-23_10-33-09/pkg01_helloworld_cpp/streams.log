@@ -1,0 +1,68 @@
+[0.024s] Invoking command in '/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/build/pkg01_helloworld_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/src/pkg01_helloworld_cpp -DCMAKE_INSTALL_PREFIX=/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg01_helloworld_cpp
+[0.077s] -- The C compiler identification is GNU 11.3.0
+[0.126s] -- The CXX compiler identification is GNU 11.3.0
+[0.135s] -- Detecting C compiler ABI info
+[0.218s] -- Detecting C compiler ABI info - done
+[0.227s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.228s] -- Detecting C compile features
+[0.228s] -- Detecting C compile features - done
+[0.232s] -- Detecting CXX compiler ABI info
+[0.319s] -- Detecting CXX compiler ABI info - done
+[0.327s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.327s] -- Detecting CXX compile features
+[0.327s] -- Detecting CXX compile features - done
+[0.332s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.460s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.527s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.553s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.556s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.561s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.571s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.584s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.633s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.634s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.697s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.724s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.757s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.766s] -- Looking for pthread.h
+[0.851s] -- Looking for pthread.h - found
+[0.853s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.937s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.939s] -- Found Threads: TRUE  
+[1.049s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.122s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.122s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/src/pkg01_helloworld_cpp/include>
+[1.123s] -- Configured cppcheck exclude dirs and/or files: 
+[1.127s] -- Added test 'lint_cmake' to check CMake code style
+[1.136s] -- Added test 'uncrustify' to check C / C++ code style
+[1.136s] -- Configured uncrustify additional arguments: 
+[1.139s] -- Added test 'xmllint' to check XML markup files
+[1.148s] -- Configuring done
+[1.183s] -- Generating done
+[1.191s] -- Build files have been written to: /media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/build/pkg01_helloworld_cpp
+[1.199s] Invoked command in '/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/build/pkg01_helloworld_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/src/pkg01_helloworld_cpp -DCMAKE_INSTALL_PREFIX=/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg01_helloworld_cpp
+[1.201s] Invoking command in '/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/build/pkg01_helloworld_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/build/pkg01_helloworld_cpp -- -j8 -l8
+[1.237s] [ 50%] [32mBuilding CXX object CMakeFiles/helloworld.dir/src/helloworld.cpp.o[0m
+[3.113s] [100%] [32m[1mLinking CXX executable helloworld[0m
+[3.201s] [100%] Built target helloworld
+[3.210s] Invoked command in '/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/build/pkg01_helloworld_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/build/pkg01_helloworld_cpp -- -j8 -l8
+[3.233s] Invoking command in '/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/build/pkg01_helloworld_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/build/pkg01_helloworld_cpp
+[3.238s] -- Install configuration: ""
+[3.239s] -- Installing: /media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/helloworld
+[3.243s] -- Set runtime path of "/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/helloworld" to ""
+[3.245s] -- Installing: /media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg01_helloworld_cpp/share/ament_index/resource_index/package_run_dependencies/pkg01_helloworld_cpp
+[3.248s] -- Installing: /media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg01_helloworld_cpp/share/ament_index/resource_index/parent_prefix_path/pkg01_helloworld_cpp
+[3.251s] -- Installing: /media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/ament_prefix_path.sh
+[3.253s] -- Installing: /media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/ament_prefix_path.dsv
+[3.255s] -- Installing: /media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/path.sh
+[3.257s] -- Installing: /media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/path.dsv
+[3.259s] -- Installing: /media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.bash
+[3.261s] -- Installing: /media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.sh
+[3.264s] -- Installing: /media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.zsh
+[3.266s] -- Installing: /media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.dsv
+[3.268s] -- Installing: /media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/package.dsv
+[3.272s] -- Installing: /media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg01_helloworld_cpp/share/ament_index/resource_index/packages/pkg01_helloworld_cpp
+[3.275s] -- Installing: /media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/cmake/pkg01_helloworld_cppConfig.cmake
+[3.277s] -- Installing: /media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/cmake/pkg01_helloworld_cppConfig-version.cmake
+[3.279s] -- Installing: /media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/package.xml
+[3.284s] Invoked command in '/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/build/pkg01_helloworld_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/build/pkg01_helloworld_cpp

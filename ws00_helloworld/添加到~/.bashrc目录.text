@@ -1,0 +1,2 @@
+echo "source <工作目录>/install/setup.bash" >> ~/.bashrc
+这样就可以不source就可以随时随地run自己作的功能包了

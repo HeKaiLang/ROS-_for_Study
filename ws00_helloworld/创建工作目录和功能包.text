@@ -1,0 +1,4 @@
+在ws下的src创建功能包和节点
+ros2 pkg create pkg02_helloworld_py --build-type ament_python --dependencies rclpy --node-name helloworld
+返回cd ..进行编译
+colcon build

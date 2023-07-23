@@ -1,0 +1,10 @@
+/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/build/pkg01_helloworld_cpp/CMakeFiles/uninstall.dir
+/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/build/pkg01_helloworld_cpp/CMakeFiles/pkg01_helloworld_cpp_uninstall.dir
+/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/build/pkg01_helloworld_cpp/CMakeFiles/helloworld.dir
+/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/build/pkg01_helloworld_cpp/CMakeFiles/test.dir
+/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/build/pkg01_helloworld_cpp/CMakeFiles/edit_cache.dir
+/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/build/pkg01_helloworld_cpp/CMakeFiles/rebuild_cache.dir
+/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/build/pkg01_helloworld_cpp/CMakeFiles/list_install_components.dir
+/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/build/pkg01_helloworld_cpp/CMakeFiles/install.dir
+/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/build/pkg01_helloworld_cpp/CMakeFiles/install/local.dir
+/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/build/pkg01_helloworld_cpp/CMakeFiles/install/strip.dir
