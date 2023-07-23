@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target helloworld2[0m
+[35m[1mConsolidate compiler generated dependencies of target helloworld[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/helloworld2.dir/src/helloworld2.cpp.o[0m
+[ 75%] Built target helloworld

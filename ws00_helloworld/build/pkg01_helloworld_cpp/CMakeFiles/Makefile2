@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /media/kl/数据/github/Github_respository/ROS-_for_Study/ws0
 
 # The main recursive "all" target.
 all: CMakeFiles/helloworld.dir/all
+all: CMakeFiles/helloworld2.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,6 +75,7 @@ preinstall:
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/pkg01_helloworld_cpp_uninstall.dir/clean
 clean: CMakeFiles/helloworld.dir/clean
+clean: CMakeFiles/helloworld2.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -153,6 +155,32 @@ helloworld: CMakeFiles/helloworld.dir/rule
 CMakeFiles/helloworld.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/clean
 .PHONY : CMakeFiles/helloworld.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/helloworld2.dir
+
+# All Build rule for target.
+CMakeFiles/helloworld2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld2.dir/build.make CMakeFiles/helloworld2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld2.dir/build.make CMakeFiles/helloworld2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/build/pkg01_helloworld_cpp/CMakeFiles --progress-num=3,4 "Built target helloworld2"
+.PHONY : CMakeFiles/helloworld2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/helloworld2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/build/pkg01_helloworld_cpp/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/helloworld2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/build/pkg01_helloworld_cpp/CMakeFiles 0
+.PHONY : CMakeFiles/helloworld2.dir/rule
+
+# Convenience name for target.
+helloworld2: CMakeFiles/helloworld2.dir/rule
+.PHONY : helloworld2
+
+# clean rule for target.
+CMakeFiles/helloworld2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld2.dir/build.make CMakeFiles/helloworld2.dir/clean
+.PHONY : CMakeFiles/helloworld2.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

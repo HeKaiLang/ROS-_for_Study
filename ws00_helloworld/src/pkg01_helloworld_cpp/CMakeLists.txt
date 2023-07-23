@@ -10,16 +10,26 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 
 add_executable(helloworld src/helloworld.cpp)
+add_executable(helloworld2 src/helloworld2.cpp)
+
 target_include_directories(helloworld PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>)
 target_compile_features(helloworld PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+
 ament_target_dependencies(
   helloworld
   "rclcpp"
 )
+ament_target_dependencies(
+  helloworld2
+  "rclcpp"
+)
 
 install(TARGETS helloworld
+  DESTINATION lib/${PROJECT_NAME})
+  
+install(TARGETS helloworld2
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)

@@ -1,0 +1,26 @@
+[0.448s] Invoking command in '/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/src/pkg02_helloworld_py': PYTHONPATH=/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/build/pkg02_helloworld_py/prefix_override:/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg02_helloworld_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pkg02_helloworld_py build --build-base /media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/build/pkg02_helloworld_py/build install --record /media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/build/pkg02_helloworld_py/install.log --single-version-externally-managed
+[0.620s] running egg_info
+[0.621s] writing ../../build/pkg02_helloworld_py/pkg02_helloworld_py.egg-info/PKG-INFO
+[0.622s] writing dependency_links to ../../build/pkg02_helloworld_py/pkg02_helloworld_py.egg-info/dependency_links.txt
+[0.622s] writing entry points to ../../build/pkg02_helloworld_py/pkg02_helloworld_py.egg-info/entry_points.txt
+[0.622s] writing requirements to ../../build/pkg02_helloworld_py/pkg02_helloworld_py.egg-info/requires.txt
+[0.623s] writing top-level names to ../../build/pkg02_helloworld_py/pkg02_helloworld_py.egg-info/top_level.txt
+[0.626s] reading manifest file '../../build/pkg02_helloworld_py/pkg02_helloworld_py.egg-info/SOURCES.txt'
+[0.629s] writing manifest file '../../build/pkg02_helloworld_py/pkg02_helloworld_py.egg-info/SOURCES.txt'
+[0.629s] running build
+[0.629s] running build_py
+[0.630s] copying pkg02_helloworld_py/helloworld.py -> /media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/build/pkg02_helloworld_py/build/lib/pkg02_helloworld_py
+[0.631s] running install
+[0.631s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.632s]   warnings.warn(
+[0.632s] running install_lib
+[0.634s] copying /media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/build/pkg02_helloworld_py/build/lib/pkg02_helloworld_py/helloworld.py -> /media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg02_helloworld_py/lib/python3.10/site-packages/pkg02_helloworld_py
+[0.636s] byte-compiling /media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg02_helloworld_py/lib/python3.10/site-packages/pkg02_helloworld_py/helloworld.py to helloworld.cpython-310.pyc
+[0.638s] running install_data
+[0.639s] running install_egg_info
+[0.641s] removing '/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg02_helloworld_py/lib/python3.10/site-packages/pkg02_helloworld_py-0.0.0-py3.10.egg-info' (and everything under it)
+[0.642s] Copying ../../build/pkg02_helloworld_py/pkg02_helloworld_py.egg-info to /media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg02_helloworld_py/lib/python3.10/site-packages/pkg02_helloworld_py-0.0.0-py3.10.egg-info
+[0.650s] running install_scripts
+[0.667s] Installing helloworld script to /media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg02_helloworld_py/lib/pkg02_helloworld_py
+[0.667s] writing list of installed files to '/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/build/pkg02_helloworld_py/install.log'
+[0.685s] Invoked command in '/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/src/pkg02_helloworld_py' returned '0': PYTHONPATH=/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/build/pkg02_helloworld_py/prefix_override:/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg02_helloworld_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pkg02_helloworld_py build --build-base /media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/build/pkg02_helloworld_py/build install --record /media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/build/pkg02_helloworld_py/install.log --single-version-externally-managed

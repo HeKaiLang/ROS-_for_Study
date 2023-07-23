@@ -10,3 +10,19 @@ CMakeLists.txt
   source install/setup.bash  或 . install/setup.bash
 2 执行
   ros2 run pkg01_helloworld_cpp helloworld  
+
+编译时可以选择文档
+colcon build --packages-select <某一个包名> 
+
+创建多个cpp文件时更改CMakeLists.txt
+12行
+add_executable(<newname> src/<newname>.cpp)
+
+19行
+ament_target_dependencies(
+  <newname>
+  "rclcpp"
+)
+下面
+install(TARGETS helloworld2
+  DESTINATION lib/${PROJECT_NAME})

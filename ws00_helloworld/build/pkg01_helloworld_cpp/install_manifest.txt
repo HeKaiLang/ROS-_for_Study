@@ -1,4 +1,5 @@
 /media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/helloworld
+/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/helloworld2
 /media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg01_helloworld_cpp/share/ament_index/resource_index/package_run_dependencies/pkg01_helloworld_cpp
 /media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg01_helloworld_cpp/share/ament_index/resource_index/parent_prefix_path/pkg01_helloworld_cpp
 /media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/ament_prefix_path.sh
