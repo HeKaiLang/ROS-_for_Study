@@ -1,0 +1,4 @@
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+Sorry: IndentationError: unindent does not match any outer indentation level (demo02_listener_str.py, line 8)
+error: [Errno 22] Invalid argument: '/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic/lib/py01_topic/demo01_talker_str = py01_topic.demo01_talker_str:maindemo02_listener_str'

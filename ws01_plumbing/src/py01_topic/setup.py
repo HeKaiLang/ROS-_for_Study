@@ -20,7 +20,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'demo01_talker_str = py01_topic.demo01_talker_str:main'
+            'demo01_talker_str = py01_topic.demo01_talker_str:main',
+            'demo02_listener_str = py01_topic.demo02_listener_str:main'
         ],
     },
+   
 )

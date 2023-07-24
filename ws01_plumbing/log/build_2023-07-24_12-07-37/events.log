@@ -1,0 +1,52 @@
+[0.000000] (-) TimerEvent: {}
+[0.000125] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.000523] (-) JobUnselected: {'identifier': 'py01_topic'}
+[0.000599] (cpp01_topic) JobQueued: {'identifier': 'cpp01_topic', 'dependencies': OrderedDict([('base_interfaces_demo', '/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces_demo')])}
+[0.000876] (cpp01_topic) JobStarted: {'identifier': 'cpp01_topic'}
+[0.018479] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'cmake'}
+[0.019667] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'build'}
+[0.020493] (cpp01_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp01_topic', '--', '-j8', '-l8'], 'cwd': '/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp01_topic', 'env': OrderedDict([('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'kl'), ('all_proxy', 'socks://127.0.0.1:7891/'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kl'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.80.1'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1910'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c761aaef553e0430294ba5cc64bdcb24'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/install:/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kl'), ('ALL_PROXY', 'socks://127.0.0.1:7891/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/XX:@/tmp/.ICE-unix/1910,unix/XX:/tmp/.ICE-unix/1910'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f3c6e3ba_1240_4580_aeae_127dd0cc2f0f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FRV971'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4cf657e907.sock'), ('GNOME_TERMINAL_SERVICE', ':1.1230'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic:/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic:/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces_demo:/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg02_helloworld_py:/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg01_helloworld_cpp:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp01_topic'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c761aaef553e0430294ba5cc64bdcb24'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg02_helloworld_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces_demo:/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic:/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg01_helloworld_cpp:/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic:/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble')]), 'shell': False}
+[0.057459] (cpp01_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo02_listener_str\x1b[0m\n'}
+[0.068020] (cpp01_topic) StdoutLine: {'line': b'[ 50%] Built target demo01_talker_str\n'}
+[0.099173] (-) TimerEvent: {}
+[0.106274] (cpp01_topic) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/demo02_listener_str.dir/src/demo02_listener_str.cpp.o\x1b[0m\n'}
+[0.199395] (-) TimerEvent: {}
+[0.299915] (-) TimerEvent: {}
+[0.400539] (-) TimerEvent: {}
+[0.500968] (-) TimerEvent: {}
+[0.601289] (-) TimerEvent: {}
+[0.701760] (-) TimerEvent: {}
+[0.802118] (-) TimerEvent: {}
+[0.902706] (-) TimerEvent: {}
+[1.003484] (-) TimerEvent: {}
+[1.104307] (-) TimerEvent: {}
+[1.205007] (-) TimerEvent: {}
+[1.305701] (-) TimerEvent: {}
+[1.406311] (-) TimerEvent: {}
+[1.506980] (-) TimerEvent: {}
+[1.607582] (-) TimerEvent: {}
+[1.708289] (-) TimerEvent: {}
+[1.726586] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/media/kl/\xe6\x95\xb0\xe6\x8d\xae/github/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:6:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[1.727042] (cpp01_topic) StderrLine: {'line': b'    6 |     Listener(\x1b[01;31m\x1b[K)\x1b[m\x1b[KNode("Listener_node_cpp"){\n'}
+[1.727192] (cpp01_topic) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.727318] (cpp01_topic) StderrLine: {'line': b'      |               \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.727417] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/media/kl/\xe6\x95\xb0\xe6\x8d\xae/github/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:6:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before string constant\n'}
+[1.727530] (cpp01_topic) StderrLine: {'line': b'    6 |     Listener()Node(\x1b[01;31m\x1b[K"Listener_node_cpp"\x1b[m\x1b[K){\n'}
+[1.727629] (cpp01_topic) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.727734] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/media/kl/\xe6\x95\xb0\xe6\x8d\xae/github/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:6:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before string constant\n'}
+[1.727833] (cpp01_topic) StderrLine: {'line': b'    6 |     Listener()Node\x1b[34m\x1b[K(\x1b[m\x1b[K\x1b[01;31m\x1b[K"\x1b[m\x1b[K\x1b[32m\x1b[KListener_node_cpp"\x1b[m\x1b[K){\n'}
+[1.727945] (cpp01_topic) StderrLine: {'line': b'      |                   \x1b[34m\x1b[K~\x1b[m\x1b[K\x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.728041] (cpp01_topic) StderrLine: {'line': b'      |                    \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[1.730813] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/media/kl/\xe6\x95\xb0\xe6\x8d\xae/github/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.730945] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/media/kl/\xe6\x95\xb0\xe6\x8d\xae/github/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:19:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krcllcpp\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.731063] (cpp01_topic) StderrLine: {'line': b'   19 |     \x1b[01;31m\x1b[Krcllcpp\x1b[m\x1b[K::shutdown();\n'}
+[1.731178] (cpp01_topic) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.808415] (-) TimerEvent: {}
+[1.908940] (-) TimerEvent: {}
+[2.009511] (-) TimerEvent: {}
+[2.046771] (cpp01_topic) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/demo02_listener_str.dir/build.make:76\xef\xbc\x9aCMakeFiles/demo02_listener_str.dir/src/demo02_listener_str.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[2.047334] (cpp01_topic) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165\xef\xbc\x9aCMakeFiles/demo02_listener_str.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[2.047567] (cpp01_topic) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[2.049432] (cpp01_topic) CommandEnded: {'returncode': 2}
+[2.087576] (cpp01_topic) JobEnded: {'identifier': 'cpp01_topic', 'rc': 2}
+[2.098250] (-) EventReactorShutdown: {}

@@ -1,0 +1,101 @@
+[0.000000] (-) TimerEvent: {}
+[0.000288] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.000711] (-) JobUnselected: {'identifier': 'py01_topic'}
+[0.000793] (cpp01_topic) JobQueued: {'identifier': 'cpp01_topic', 'dependencies': OrderedDict([('base_interfaces_demo', '/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces_demo')])}
+[0.001135] (cpp01_topic) JobStarted: {'identifier': 'cpp01_topic'}
+[0.016924] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'cmake'}
+[0.018509] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'build'}
+[0.019453] (cpp01_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp01_topic', '--', '-j8', '-l8'], 'cwd': '/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp01_topic', 'env': OrderedDict([('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'kl'), ('all_proxy', 'socks://127.0.0.1:7891/'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kl'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.80.1'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1910'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c761aaef553e0430294ba5cc64bdcb24'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/install:/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kl'), ('ALL_PROXY', 'socks://127.0.0.1:7891/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/XX:@/tmp/.ICE-unix/1910,unix/XX:/tmp/.ICE-unix/1910'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f3c6e3ba_1240_4580_aeae_127dd0cc2f0f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FRV971'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4cf657e907.sock'), ('GNOME_TERMINAL_SERVICE', ':1.1230'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic:/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic:/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces_demo:/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg02_helloworld_py:/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg01_helloworld_cpp:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp01_topic'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c761aaef553e0430294ba5cc64bdcb24'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg02_helloworld_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces_demo:/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic:/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg01_helloworld_cpp:/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic:/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble')]), 'shell': False}
+[0.054188] (cpp01_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo02_listener_str\x1b[0m\n'}
+[0.065688] (cpp01_topic) StdoutLine: {'line': b'[ 50%] Built target demo01_talker_str\n'}
+[0.097530] (cpp01_topic) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/demo02_listener_str.dir/src/demo02_listener_str.cpp.o\x1b[0m\n'}
+[0.099784] (-) TimerEvent: {}
+[0.200110] (-) TimerEvent: {}
+[0.300570] (-) TimerEvent: {}
+[0.401208] (-) TimerEvent: {}
+[0.501875] (-) TimerEvent: {}
+[0.602303] (-) TimerEvent: {}
+[0.702887] (-) TimerEvent: {}
+[0.803427] (-) TimerEvent: {}
+[0.904052] (-) TimerEvent: {}
+[1.004542] (-) TimerEvent: {}
+[1.105195] (-) TimerEvent: {}
+[1.205839] (-) TimerEvent: {}
+[1.306257] (-) TimerEvent: {}
+[1.406993] (-) TimerEvent: {}
+[1.507596] (-) TimerEvent: {}
+[1.608032] (-) TimerEvent: {}
+[1.708404] (-) TimerEvent: {}
+[1.808901] (-) TimerEvent: {}
+[1.909553] (-) TimerEvent: {}
+[2.010316] (-) TimerEvent: {}
+[2.110989] (-) TimerEvent: {}
+[2.211700] (-) TimerEvent: {}
+[2.312423] (-) TimerEvent: {}
+[2.413013] (-) TimerEvent: {}
+[2.513765] (-) TimerEvent: {}
+[2.614334] (-) TimerEvent: {}
+[2.714947] (-) TimerEvent: {}
+[2.815574] (-) TimerEvent: {}
+[2.916000] (-) TimerEvent: {}
+[3.016483] (-) TimerEvent: {}
+[3.117014] (-) TimerEvent: {}
+[3.217669] (-) TimerEvent: {}
+[3.318374] (-) TimerEvent: {}
+[3.419137] (-) TimerEvent: {}
+[3.519706] (-) TimerEvent: {}
+[3.620436] (-) TimerEvent: {}
+[3.721151] (-) TimerEvent: {}
+[3.821917] (-) TimerEvent: {}
+[3.922600] (-) TimerEvent: {}
+[4.023252] (-) TimerEvent: {}
+[4.124046] (-) TimerEvent: {}
+[4.224830] (-) TimerEvent: {}
+[4.325507] (-) TimerEvent: {}
+[4.426322] (-) TimerEvent: {}
+[4.527054] (-) TimerEvent: {}
+[4.627654] (-) TimerEvent: {}
+[4.728026] (-) TimerEvent: {}
+[4.828350] (-) TimerEvent: {}
+[4.928771] (-) TimerEvent: {}
+[5.029315] (-) TimerEvent: {}
+[5.129702] (-) TimerEvent: {}
+[5.230092] (-) TimerEvent: {}
+[5.330523] (-) TimerEvent: {}
+[5.430970] (-) TimerEvent: {}
+[5.531582] (-) TimerEvent: {}
+[5.632401] (-) TimerEvent: {}
+[5.732993] (-) TimerEvent: {}
+[5.833451] (-) TimerEvent: {}
+[5.855289] (cpp01_topic) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable demo02_listener_str\x1b[0m\n'}
+[5.933627] (-) TimerEvent: {}
+[6.034073] (-) TimerEvent: {}
+[6.134474] (-) TimerEvent: {}
+[6.227083] (cpp01_topic) StdoutLine: {'line': b'[100%] Built target demo02_listener_str\n'}
+[6.234580] (-) TimerEvent: {}
+[6.235840] (cpp01_topic) CommandEnded: {'returncode': 0}
+[6.254656] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'install'}
+[6.262755] (cpp01_topic) Command: {'cmd': ['/usr/bin/cmake', '--install', '/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp01_topic'], 'cwd': '/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp01_topic', 'env': OrderedDict([('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'kl'), ('all_proxy', 'socks://127.0.0.1:7891/'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kl'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.80.1'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1910'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c761aaef553e0430294ba5cc64bdcb24'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/install:/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kl'), ('ALL_PROXY', 'socks://127.0.0.1:7891/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/XX:@/tmp/.ICE-unix/1910,unix/XX:/tmp/.ICE-unix/1910'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f3c6e3ba_1240_4580_aeae_127dd0cc2f0f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FRV971'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4cf657e907.sock'), ('GNOME_TERMINAL_SERVICE', ':1.1230'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic:/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic:/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces_demo:/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg02_helloworld_py:/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg01_helloworld_cpp:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp01_topic'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c761aaef553e0430294ba5cc64bdcb24'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg02_helloworld_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces_demo:/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic:/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg01_helloworld_cpp:/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic:/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble')]), 'shell': False}
+[6.269709] (cpp01_topic) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.270795] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /media/kl/\xe6\x95\xb0\xe6\x8d\xae/github/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str\n'}
+[6.273091] (cpp01_topic) StdoutLine: {'line': b'-- Installing: /media/kl/\xe6\x95\xb0\xe6\x8d\xae/github/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo02_listener_str\n'}
+[6.296410] (cpp01_topic) StdoutLine: {'line': b'-- Set runtime path of "/media/kl/\xe6\x95\xb0\xe6\x8d\xae/github/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo02_listener_str" to ""\n'}
+[6.297160] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /media/kl/\xe6\x95\xb0\xe6\x8d\xae/github/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/package_run_dependencies/cpp01_topic\n'}
+[6.298040] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /media/kl/\xe6\x95\xb0\xe6\x8d\xae/github/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/parent_prefix_path/cpp01_topic\n'}
+[6.298541] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /media/kl/\xe6\x95\xb0\xe6\x8d\xae/github/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.sh\n'}
+[6.299330] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /media/kl/\xe6\x95\xb0\xe6\x8d\xae/github/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.dsv\n'}
+[6.299782] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /media/kl/\xe6\x95\xb0\xe6\x8d\xae/github/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.sh\n'}
+[6.300529] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /media/kl/\xe6\x95\xb0\xe6\x8d\xae/github/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.dsv\n'}
+[6.301200] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /media/kl/\xe6\x95\xb0\xe6\x8d\xae/github/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.bash\n'}
+[6.301882] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /media/kl/\xe6\x95\xb0\xe6\x8d\xae/github/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.sh\n'}
+[6.302569] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /media/kl/\xe6\x95\xb0\xe6\x8d\xae/github/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.zsh\n'}
+[6.303266] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /media/kl/\xe6\x95\xb0\xe6\x8d\xae/github/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.dsv\n'}
+[6.303923] (cpp01_topic) StdoutLine: {'line': b'-- Installing: /media/kl/\xe6\x95\xb0\xe6\x8d\xae/github/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.dsv\n'}
+[6.306174] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /media/kl/\xe6\x95\xb0\xe6\x8d\xae/github/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/packages/cpp01_topic\n'}
+[6.306904] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /media/kl/\xe6\x95\xb0\xe6\x8d\xae/github/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig.cmake\n'}
+[6.307447] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /media/kl/\xe6\x95\xb0\xe6\x8d\xae/github/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig-version.cmake\n'}
+[6.308122] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /media/kl/\xe6\x95\xb0\xe6\x8d\xae/github/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.xml\n'}
+[6.309993] (cpp01_topic) CommandEnded: {'returncode': 0}
+[6.334654] (-) TimerEvent: {}
+[6.370147] (cpp01_topic) JobEnded: {'identifier': 'cpp01_topic', 'rc': 0}
+[6.370969] (-) EventReactorShutdown: {}
