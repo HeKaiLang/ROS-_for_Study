@@ -11,6 +11,8 @@ setup.py
 py01_topic_re/__init__.py
 py01_topic_re/demo01_talker_str.py
 py01_topic_re/demo02_listener_str.py
+py01_topic_re/demo03_talker_stu.py
+py01_topic_re/demo04_listener_stu.py
 resource/py01_topic_re
 test/test_copyright.py
 test/test_flake8.py

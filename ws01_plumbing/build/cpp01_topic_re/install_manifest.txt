@@ -1,5 +1,7 @@
 /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/lib/cpp01_topic_re/demo01_talker_str
 /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/lib/cpp01_topic_re/demo02_listener_str
+/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/lib/cpp01_topic_re/demo03_talker_stu
+/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/lib/cpp01_topic_re/demo04_listener_stu
 /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/ament_index/resource_index/package_run_dependencies/cpp01_topic_re
 /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/ament_index/resource_index/parent_prefix_path/cpp01_topic_re
 /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/cpp01_topic_re/environment/ament_prefix_path.sh

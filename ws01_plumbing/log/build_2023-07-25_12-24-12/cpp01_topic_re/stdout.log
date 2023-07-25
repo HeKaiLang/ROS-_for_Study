@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target demo03_talker_stu[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/demo04_listener_stu.dir/src/demo04_listener_stu.cpp.o[0m
+[ 62%] Built target demo02_listener_str
+[ 62%] Built target demo01_talker_str
+[ 87%] Built target demo03_talker_stu
+[100%] [32m[1mLinking CXX executable demo04_listener_stu[0m
+[100%] Built target demo04_listener_stu
+-- Install configuration: ""
+-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/lib/cpp01_topic_re/demo01_talker_str
+-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/lib/cpp01_topic_re/demo02_listener_str
+-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/lib/cpp01_topic_re/demo03_talker_stu
+-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/lib/cpp01_topic_re/demo04_listener_stu
+-- Set runtime path of "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/lib/cpp01_topic_re/demo04_listener_stu" to ""
+-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/ament_index/resource_index/package_run_dependencies/cpp01_topic_re
+-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/ament_index/resource_index/parent_prefix_path/cpp01_topic_re
+-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/cpp01_topic_re/environment/ament_prefix_path.sh
+-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/cpp01_topic_re/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/cpp01_topic_re/environment/path.sh
+-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/cpp01_topic_re/environment/path.dsv
+-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/cpp01_topic_re/local_setup.bash
+-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/cpp01_topic_re/local_setup.sh
+-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/cpp01_topic_re/local_setup.zsh
+-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/cpp01_topic_re/local_setup.dsv
+-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/cpp01_topic_re/package.dsv
+-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/ament_index/resource_index/packages/cpp01_topic_re
+-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/cpp01_topic_re/cmake/cpp01_topic_reConfig.cmake
+-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/cpp01_topic_re/cmake/cpp01_topic_reConfig-version.cmake
+-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/cpp01_topic_re/package.xml

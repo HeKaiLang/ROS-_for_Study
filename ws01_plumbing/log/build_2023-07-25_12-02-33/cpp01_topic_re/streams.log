@@ -1,0 +1,13 @@
+[0.012s] Invoking command in '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp01_topic_re': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re:/opt/ros/humble /usr/bin/cmake --build /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp01_topic_re -- -j8 -l8
+[0.048s] [ 12%] [32mBuilding CXX object CMakeFiles/demo03_talker_stu.dir/src/demo03_talker_stu.cpp.o[0m
+[0.053s] [ 37%] Built target demo04_listener_stu
+[0.053s] [ 62%] Built target demo02_listener_str
+[0.053s] [ 87%] Built target demo01_talker_str
+[0.180s] [01m[K/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp01_topic_re/src/demo03_talker_stu.cpp:2:10:[m[K [01;31m[Kfatal error: [m[KStudent.hpp: 没有那个文件或目录
+[0.180s]     2 | #include [01;31m[K"Student.hpp"[m[K
+[0.180s]       |          [01;31m[K^~~~~~~~~~~~~[m[K
+[0.180s] compilation terminated.
+[0.182s] gmake[2]: *** [CMakeFiles/demo03_talker_stu.dir/build.make:76：CMakeFiles/demo03_talker_stu.dir/src/demo03_talker_stu.cpp.o] 错误 1
+[0.182s] gmake[1]: *** [CMakeFiles/Makefile2:195：CMakeFiles/demo03_talker_stu.dir/all] 错误 2
+[0.183s] gmake: *** [Makefile:146：all] 错误 2
+[0.185s] Invoked command in '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp01_topic_re' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re:/opt/ros/humble /usr/bin/cmake --build /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp01_topic_re -- -j8 -l8

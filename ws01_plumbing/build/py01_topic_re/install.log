@@ -1,6 +1,10 @@
+/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re/lib/python3.10/site-packages/py01_topic_re/demo03_talker_stu.py
+/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re/lib/python3.10/site-packages/py01_topic_re/demo04_listener_stu.py
 /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re/lib/python3.10/site-packages/py01_topic_re/demo02_listener_str.py
 /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re/lib/python3.10/site-packages/py01_topic_re/demo01_talker_str.py
 /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re/lib/python3.10/site-packages/py01_topic_re/__init__.py
+/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re/lib/python3.10/site-packages/py01_topic_re/__pycache__/demo03_talker_stu.cpython-310.pyc
+/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re/lib/python3.10/site-packages/py01_topic_re/__pycache__/demo04_listener_stu.cpython-310.pyc
 /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re/lib/python3.10/site-packages/py01_topic_re/__pycache__/demo02_listener_str.cpython-310.pyc
 /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re/lib/python3.10/site-packages/py01_topic_re/__pycache__/demo01_talker_str.cpython-310.pyc
 /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re/lib/python3.10/site-packages/py01_topic_re/__pycache__/__init__.cpython-310.pyc
@@ -15,3 +19,5 @@
 /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re/lib/python3.10/site-packages/py01_topic_re-0.0.0-py3.10.egg-info/PKG-INFO
 /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re/lib/py01_topic_re/demo01_talker_str
 /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re/lib/py01_topic_re/demo02_listener_str
+/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re/lib/py01_topic_re/demo03_talker_stu
+/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re/lib/py01_topic_re/demo04_listener_stu
