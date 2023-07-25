@@ -1,0 +1,4 @@
+[console_scripts]
+demo01_talker_str = py01_topic_re.demo01_talker_str:main
+demo02_listener_str = py01_topic_re.demo02_listener_str:main
+

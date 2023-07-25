@@ -1,0 +1,51 @@
+[0.017s] Invoking command in '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp01_topic_re': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp01_topic_re -- -j8 -l8
+[0.034s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.164s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.184s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.186s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.190s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.199s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.212s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.257s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.258s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.361s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.489s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.538s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.538s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp01_topic_re/include>
+[0.538s] -- Configured cppcheck exclude dirs and/or files: 
+[0.539s] -- Added test 'lint_cmake' to check CMake code style
+[0.539s] -- Added test 'uncrustify' to check C / C++ code style
+[0.539s] -- Configured uncrustify additional arguments: 
+[0.539s] -- Added test 'xmllint' to check XML markup files
+[0.540s] -- Configuring done
+[0.548s] -- Generating done
+[0.550s] -- Build files have been written to: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp01_topic_re
+[0.572s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_talker_str.dir/src/demo01_talker_str.cpp.o[0m
+[0.572s] [ 50%] [32mBuilding CXX object CMakeFiles/demo02_listener_str.dir/src/demo02_listener_str.cpp.o[0m
+[3.945s] [ 75%] [32m[1mLinking CXX executable demo01_talker_str[0m
+[4.232s] [ 75%] Built target demo01_talker_str
+[6.940s] [100%] [32m[1mLinking CXX executable demo02_listener_str[0m
+[7.201s] [100%] Built target demo02_listener_str
+[7.209s] Invoked command in '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp01_topic_re' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp01_topic_re -- -j8 -l8
+[7.227s] Invoking command in '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp01_topic_re': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp01_topic_re
+[7.232s] -- Install configuration: ""
+[7.232s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/lib/cpp01_topic_re/demo01_talker_str
+[7.233s] -- Set runtime path of "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/lib/cpp01_topic_re/demo01_talker_str" to ""
+[7.233s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/lib/cpp01_topic_re/demo02_listener_str
+[7.235s] -- Set runtime path of "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/lib/cpp01_topic_re/demo02_listener_str" to ""
+[7.235s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/ament_index/resource_index/package_run_dependencies/cpp01_topic_re
+[7.235s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/ament_index/resource_index/parent_prefix_path/cpp01_topic_re
+[7.235s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/cpp01_topic_re/environment/ament_prefix_path.sh
+[7.235s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/cpp01_topic_re/environment/ament_prefix_path.dsv
+[7.235s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/cpp01_topic_re/environment/path.sh
+[7.235s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/cpp01_topic_re/environment/path.dsv
+[7.235s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/cpp01_topic_re/local_setup.bash
+[7.236s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/cpp01_topic_re/local_setup.sh
+[7.236s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/cpp01_topic_re/local_setup.zsh
+[7.236s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/cpp01_topic_re/local_setup.dsv
+[7.236s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/cpp01_topic_re/package.dsv
+[7.236s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/ament_index/resource_index/packages/cpp01_topic_re
+[7.236s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/cpp01_topic_re/cmake/cpp01_topic_reConfig.cmake
+[7.236s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/cpp01_topic_re/cmake/cpp01_topic_reConfig-version.cmake
+[7.236s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/cpp01_topic_re/package.xml
+[7.239s] Invoked command in '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp01_topic_re' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp01_topic_re

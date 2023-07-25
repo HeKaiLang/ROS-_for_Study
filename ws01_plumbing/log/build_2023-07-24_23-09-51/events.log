@@ -1,0 +1,69 @@
+[0.000000] (-) TimerEvent: {}
+[0.000346] (-) JobUnselected: {'identifier': 'base_interfaces'}
+[0.000796] (-) JobUnselected: {'identifier': 'py01_topic'}
+[0.000815] (cpp01_topic) JobQueued: {'identifier': 'cpp01_topic', 'dependencies': OrderedDict()}
+[0.000830] (cpp01_topic) JobStarted: {'identifier': 'cpp01_topic'}
+[0.008874] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'cmake'}
+[0.009206] (cpp01_topic) Command: {'cmd': ['/usr/bin/cmake', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp01_topic', '-DCMAKE_INSTALL_PREFIX=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic'], 'cwd': '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp01_topic', 'env': OrderedDict([('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'kl'), ('all_proxy', 'socks://127.0.0.1:7891/'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kl'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src'), ('TERM_PROGRAM_VERSION', '1.80.1'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1926'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=152199b74cd82e444d55d7d264be1a06'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kl'), ('ALL_PROXY', 'socks://127.0.0.1:7891/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/XX:@/tmp/.ICE-unix/1926,unix/XX:/tmp/.ICE-unix/1926'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9a0bd8a6_d5bb_4f0b_8ce8_2360df3eb58b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SKQ871'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cef9963d23.sock'), ('GNOME_TERMINAL_SERVICE', ':1.1449'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp01_topic'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=152199b74cd82e444d55d7d264be1a06'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.049878] (cpp01_topic) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.087879] (cpp01_topic) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.092265] (cpp01_topic) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099859] (-) TimerEvent: {}
+[0.140135] (cpp01_topic) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.145853] (cpp01_topic) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.146107] (cpp01_topic) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.146255] (cpp01_topic) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.148297] (cpp01_topic) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199944] (-) TimerEvent: {}
+[0.202713] (cpp01_topic) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.208543] (cpp01_topic) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.208721] (cpp01_topic) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.209368] (cpp01_topic) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.210716] (cpp01_topic) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300117] (-) TimerEvent: {}
+[0.326206] (cpp01_topic) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[0.386242] (cpp01_topic) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.400203] (-) TimerEvent: {}
+[0.429645] (cpp01_topic) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.432132] (cpp01_topic) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.436838] (cpp01_topic) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.444814] (cpp01_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.455692] (cpp01_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500341] (-) TimerEvent: {}
+[0.544870] (cpp01_topic) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.551389] (cpp01_topic) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600474] (-) TimerEvent: {}
+[0.664747] (cpp01_topic) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.690345] (cpp01_topic) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.700593] (-) TimerEvent: {}
+[0.724590] (cpp01_topic) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.739198] (cpp01_topic) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.796462] (cpp01_topic) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.797089] (cpp01_topic) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.800722] (-) TimerEvent: {}
+[0.857130] (cpp01_topic) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.857819] (cpp01_topic) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.900814] (-) TimerEvent: {}
+[1.001111] (-) TimerEvent: {}
+[1.019060] (cpp01_topic) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:12 (find_package):\n'}
+[1.019394] (cpp01_topic) StderrLine: {'line': b'  By not providing "Findbase_interfaces_demo.cmake" in CMAKE_MODULE_PATH this\n'}
+[1.019460] (cpp01_topic) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[1.019507] (cpp01_topic) StderrLine: {'line': b'  "base_interfaces_demo", but CMake did not find one.\n'}
+[1.019551] (cpp01_topic) StderrLine: {'line': b'\n'}
+[1.019604] (cpp01_topic) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[1.019650] (cpp01_topic) StderrLine: {'line': b'  "base_interfaces_demo" with any of the following names:\n'}
+[1.019694] (cpp01_topic) StderrLine: {'line': b'\n'}
+[1.019735] (cpp01_topic) StderrLine: {'line': b'    base_interfaces_demoConfig.cmake\n'}
+[1.019780] (cpp01_topic) StderrLine: {'line': b'    base_interfaces_demo-config.cmake\n'}
+[1.019824] (cpp01_topic) StderrLine: {'line': b'\n'}
+[1.019867] (cpp01_topic) StderrLine: {'line': b'  Add the installation prefix of "base_interfaces_demo" to CMAKE_PREFIX_PATH\n'}
+[1.019917] (cpp01_topic) StderrLine: {'line': b'  or set "base_interfaces_demo_DIR" to a directory containing one of the\n'}
+[1.019959] (cpp01_topic) StderrLine: {'line': b'  above files.  If "base_interfaces_demo" provides a separate development\n'}
+[1.020005] (cpp01_topic) StderrLine: {'line': b'  package or SDK, be sure it has been installed.\n'}
+[1.020047] (cpp01_topic) StderrLine: {'line': b'\n'}
+[1.020090] (cpp01_topic) StderrLine: {'line': b'\x1b[0m\n'}
+[1.020133] (cpp01_topic) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.020185] (cpp01_topic) StdoutLine: {'line': b'See also "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp01_topic/CMakeFiles/CMakeOutput.log".\n'}
+[1.028173] (cpp01_topic) CommandEnded: {'returncode': 1}
+[1.044747] (cpp01_topic) JobEnded: {'identifier': 'cpp01_topic', 'rc': 1}
+[1.055336] (-) EventReactorShutdown: {}

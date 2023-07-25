@@ -1,9 +1,0 @@
-/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/uninstall.dir
-/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/base_interfaces_demo_uninstall.dir
-/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/test.dir
-/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/edit_cache.dir
-/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/rebuild_cache.dir
-/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/list_install_components.dir
-/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/install.dir
-/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/install/local.dir
-/media/kl/数据/github/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/install/strip.dir
