@@ -1,0 +1,24 @@
+[0.461s] Invoking command in '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/py01_topic_re': PYTHONPATH=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/py01_topic_re/prefix_override:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py01_topic_re build --build-base /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/py01_topic_re/build install --record /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/py01_topic_re/install.log --single-version-externally-managed
+[0.615s] running egg_info
+[0.615s] writing ../../build/py01_topic_re/py01_topic_re.egg-info/PKG-INFO
+[0.616s] writing dependency_links to ../../build/py01_topic_re/py01_topic_re.egg-info/dependency_links.txt
+[0.616s] writing entry points to ../../build/py01_topic_re/py01_topic_re.egg-info/entry_points.txt
+[0.616s] writing requirements to ../../build/py01_topic_re/py01_topic_re.egg-info/requires.txt
+[0.616s] writing top-level names to ../../build/py01_topic_re/py01_topic_re.egg-info/top_level.txt
+[0.617s] reading manifest file '../../build/py01_topic_re/py01_topic_re.egg-info/SOURCES.txt'
+[0.618s] writing manifest file '../../build/py01_topic_re/py01_topic_re.egg-info/SOURCES.txt'
+[0.618s] running build
+[0.618s] running build_py
+[0.618s] running install
+[0.619s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.619s]   warnings.warn(
+[0.619s] running install_lib
+[0.620s] running install_data
+[0.620s] running install_egg_info
+[0.621s] removing '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re/lib/python3.10/site-packages/py01_topic_re-0.0.0-py3.10.egg-info' (and everything under it)
+[0.621s] Copying ../../build/py01_topic_re/py01_topic_re.egg-info to /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re/lib/python3.10/site-packages/py01_topic_re-0.0.0-py3.10.egg-info
+[0.622s] running install_scripts
+[0.637s] Installing demo01_talker_str script to /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re/lib/py01_topic_re
+[0.637s] Installing demo02_listener_str script to /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re/lib/py01_topic_re
+[0.637s] writing list of installed files to '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/py01_topic_re/install.log'
+[0.658s] Invoked command in '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/py01_topic_re' returned '0': PYTHONPATH=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/py01_topic_re/prefix_override:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py01_topic_re build --build-base /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/py01_topic_re/build install --record /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/py01_topic_re/install.log --single-version-externally-managed

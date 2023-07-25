@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target helloworld2[0m
+[35m[1mConsolidate compiler generated dependencies of target helloworld[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/helloworld2.dir/src/helloworld2.cpp.o[0m
+[ 75%] Built target helloworld
+[01m[K/media/kl/数据/github/Github_respository/ROS-_for_Study/ws00_helloworld/src/pkg01_helloworld_cpp/src/helloworld2.cpp:34:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   34 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+gmake[2]: *** [CMakeFiles/helloworld2.dir/build.make:76：CMakeFiles/helloworld2.dir/src/helloworld2.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/helloworld2.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

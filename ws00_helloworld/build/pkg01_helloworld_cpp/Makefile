@@ -210,6 +210,19 @@ helloworld/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/build
 .PHONY : helloworld/fast
 
+#=============================================================================
+# Target rules for targets named helloworld2
+
+# Build rule for target.
+helloworld2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 helloworld2
+.PHONY : helloworld2
+
+# fast build rule for target.
+helloworld2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld2.dir/build.make CMakeFiles/helloworld2.dir/build
+.PHONY : helloworld2/fast
+
 src/helloworld.o: src/helloworld.cpp.o
 .PHONY : src/helloworld.o
 
@@ -234,6 +247,30 @@ src/helloworld.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/src/helloworld.cpp.s
 .PHONY : src/helloworld.cpp.s
 
+src/helloworld2.o: src/helloworld2.cpp.o
+.PHONY : src/helloworld2.o
+
+# target to build an object file
+src/helloworld2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld2.dir/build.make CMakeFiles/helloworld2.dir/src/helloworld2.cpp.o
+.PHONY : src/helloworld2.cpp.o
+
+src/helloworld2.i: src/helloworld2.cpp.i
+.PHONY : src/helloworld2.i
+
+# target to preprocess a source file
+src/helloworld2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld2.dir/build.make CMakeFiles/helloworld2.dir/src/helloworld2.cpp.i
+.PHONY : src/helloworld2.cpp.i
+
+src/helloworld2.s: src/helloworld2.cpp.s
+.PHONY : src/helloworld2.s
+
+# target to generate assembly for a file
+src/helloworld2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld2.dir/build.make CMakeFiles/helloworld2.dir/src/helloworld2.cpp.s
+.PHONY : src/helloworld2.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +287,13 @@ help:
 	@echo "... pkg01_helloworld_cpp_uninstall"
 	@echo "... uninstall"
 	@echo "... helloworld"
+	@echo "... helloworld2"
 	@echo "... src/helloworld.o"
 	@echo "... src/helloworld.i"
 	@echo "... src/helloworld.s"
+	@echo "... src/helloworld2.o"
+	@echo "... src/helloworld2.i"
+	@echo "... src/helloworld2.s"
 .PHONY : help
 
 

@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/py01_topic_re/py01_topic_re.egg-info
+writing ../../build/py01_topic_re/py01_topic_re.egg-info/PKG-INFO
+writing dependency_links to ../../build/py01_topic_re/py01_topic_re.egg-info/dependency_links.txt
+writing entry points to ../../build/py01_topic_re/py01_topic_re.egg-info/entry_points.txt
+writing requirements to ../../build/py01_topic_re/py01_topic_re.egg-info/requires.txt
+writing top-level names to ../../build/py01_topic_re/py01_topic_re.egg-info/top_level.txt
+writing manifest file '../../build/py01_topic_re/py01_topic_re.egg-info/SOURCES.txt'
+reading manifest file '../../build/py01_topic_re/py01_topic_re.egg-info/SOURCES.txt'
+writing manifest file '../../build/py01_topic_re/py01_topic_re.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/py01_topic_re/build
+creating /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/py01_topic_re/build/lib
+creating /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/py01_topic_re/build/lib/py01_topic_re
+copying py01_topic_re/demo02_listener_str.py -> /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/py01_topic_re/build/lib/py01_topic_re
+copying py01_topic_re/demo01_talker_str.py -> /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/py01_topic_re/build/lib/py01_topic_re
+copying py01_topic_re/__init__.py -> /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/py01_topic_re/build/lib/py01_topic_re
+running install
+running install_lib
+creating /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re/lib/python3.10/site-packages/py01_topic_re
+copying /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/py01_topic_re/build/lib/py01_topic_re/demo02_listener_str.py -> /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re/lib/python3.10/site-packages/py01_topic_re
+copying /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/py01_topic_re/build/lib/py01_topic_re/demo01_talker_str.py -> /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re/lib/python3.10/site-packages/py01_topic_re
+copying /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/py01_topic_re/build/lib/py01_topic_re/__init__.py -> /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re/lib/python3.10/site-packages/py01_topic_re
+byte-compiling /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re/lib/python3.10/site-packages/py01_topic_re/demo02_listener_str.py to demo02_listener_str.cpython-310.pyc
+byte-compiling /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re/lib/python3.10/site-packages/py01_topic_re/demo01_talker_str.py to demo01_talker_str.cpython-310.pyc
+byte-compiling /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re/lib/python3.10/site-packages/py01_topic_re/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re/share/ament_index
+creating /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re/share/ament_index/resource_index
+creating /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re/share/ament_index/resource_index/packages
+copying resource/py01_topic_re -> /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re/share/ament_index/resource_index/packages
+copying package.xml -> /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re/share/py01_topic_re
+running install_egg_info
+Copying ../../build/py01_topic_re/py01_topic_re.egg-info to /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re/lib/python3.10/site-packages/py01_topic_re-0.0.0-py3.10.egg-info
+running install_scripts
+Installing demo01_talker_str script to /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re/lib/py01_topic_re
+Installing demo02_listener_str script to /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re/lib/py01_topic_re
+writing list of installed files to '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/py01_topic_re/install.log'

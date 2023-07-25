@@ -1,0 +1,47 @@
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp01_topic_re/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp01_topic_re
+[ 50%] [32mBuilding CXX object CMakeFiles/demo01_talker_str.dir/src/demo01_talker_str.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/demo02_listener_str.dir/src/demo02_listener_str.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable demo01_talker_str[0m
+[ 75%] Built target demo01_talker_str
+[100%] [32m[1mLinking CXX executable demo02_listener_str[0m
+[100%] Built target demo02_listener_str
+-- Install configuration: ""
+-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/lib/cpp01_topic_re/demo01_talker_str
+-- Set runtime path of "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/lib/cpp01_topic_re/demo01_talker_str" to ""
+-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/lib/cpp01_topic_re/demo02_listener_str
+-- Set runtime path of "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/lib/cpp01_topic_re/demo02_listener_str" to ""
+-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/ament_index/resource_index/package_run_dependencies/cpp01_topic_re
+-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/ament_index/resource_index/parent_prefix_path/cpp01_topic_re
+-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/cpp01_topic_re/environment/ament_prefix_path.sh
+-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/cpp01_topic_re/environment/ament_prefix_path.dsv
+-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/cpp01_topic_re/environment/path.sh
+-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/cpp01_topic_re/environment/path.dsv
+-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/cpp01_topic_re/local_setup.bash
+-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/cpp01_topic_re/local_setup.sh
+-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/cpp01_topic_re/local_setup.zsh
+-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/cpp01_topic_re/local_setup.dsv
+-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/cpp01_topic_re/package.dsv
+-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/ament_index/resource_index/packages/cpp01_topic_re
+-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/cpp01_topic_re/cmake/cpp01_topic_reConfig.cmake
+-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/cpp01_topic_re/cmake/cpp01_topic_reConfig-version.cmake
+-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re/share/cpp01_topic_re/package.xml

@@ -1,0 +1,7 @@
+[01m[K/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp01_topic_re/src/demo03_talker_stu.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kstudent.hpp: 没有那个文件或目录
+    2 | #include [01;31m[K"student.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/demo03_talker_stu.dir/build.make:76：CMakeFiles/demo03_talker_stu.dir/src/demo03_talker_stu.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:195：CMakeFiles/demo03_talker_stu.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2
