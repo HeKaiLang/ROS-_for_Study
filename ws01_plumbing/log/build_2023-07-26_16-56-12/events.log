@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.000113] (-) JobUnselected: {'identifier': 'base_interfaces'}
+[0.000148] (-) JobUnselected: {'identifier': 'cpp01_topic_re'}
+[0.000159] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.000174] (-) JobUnselected: {'identifier': 'py01_topic_re'}
+[0.000188] (-) JobUnselected: {'identifier': 'py02_service'}
+[0.000617] (-) EventReactorShutdown: {}

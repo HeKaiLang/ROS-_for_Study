@@ -1,10 +1,10 @@
 {
-     "cmake.configureArgs": [],
+    //  "cmake.configureArgs": [],
     "python.autoComplete.extraPaths": [
-        "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces"
+        "${workspaceFolder}/install/base_interfaces/local/lib/python3.10/dist-packages/**"
     ],
     "python.analysis.extraPaths": [
-        "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces"
+        "${workspaceFolder}/install/base_interfaces/local/lib/python3.10/dist-packages/**"
     ]
 
 }

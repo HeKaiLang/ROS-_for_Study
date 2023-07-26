@@ -1,0 +1,24 @@
+[0.381s] Invoking command in '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/py02_service': CMAKE_PREFIX_PATH=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp02_service:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re PYTHONPATH=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/py02_service/prefix_override:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py02_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py02_service build --build-base /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/py02_service/build install --record /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/py02_service/install.log --single-version-externally-managed
+[0.540s] running egg_info
+[0.540s] writing ../../build/py02_service/py02_service.egg-info/PKG-INFO
+[0.540s] writing dependency_links to ../../build/py02_service/py02_service.egg-info/dependency_links.txt
+[0.540s] writing entry points to ../../build/py02_service/py02_service.egg-info/entry_points.txt
+[0.540s] writing requirements to ../../build/py02_service/py02_service.egg-info/requires.txt
+[0.541s] writing top-level names to ../../build/py02_service/py02_service.egg-info/top_level.txt
+[0.542s] reading manifest file '../../build/py02_service/py02_service.egg-info/SOURCES.txt'
+[0.543s] writing manifest file '../../build/py02_service/py02_service.egg-info/SOURCES.txt'
+[0.543s] running build
+[0.543s] running build_py
+[0.543s] running install
+[0.543s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.543s]   warnings.warn(
+[0.543s] running install_lib
+[0.545s] running install_data
+[0.545s] running install_egg_info
+[0.546s] removing '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service-0.0.0-py3.10.egg-info' (and everything under it)
+[0.546s] Copying ../../build/py02_service/py02_service.egg-info to /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service-0.0.0-py3.10.egg-info
+[0.547s] running install_scripts
+[0.562s] Installing demo01_server_py script to /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py02_service/lib/py02_service
+[0.562s] Installing demo02_client_py script to /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py02_service/lib/py02_service
+[0.562s] writing list of installed files to '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/py02_service/install.log'
+[0.584s] Invoked command in '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/py02_service' returned '0': CMAKE_PREFIX_PATH=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp02_service:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re PYTHONPATH=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/py02_service/prefix_override:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py02_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py02_service build --build-base /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/py02_service/build install --record /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/py02_service/install.log --single-version-externally-managed

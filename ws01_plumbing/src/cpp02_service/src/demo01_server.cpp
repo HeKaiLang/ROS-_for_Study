@@ -19,7 +19,7 @@ private:
         res->sum = req->num1 + req->num2;
         RCLCPP_INFO(this->get_logger(),"%d + %d = %d",req->num1,req->num2,res->sum);
     }
-    rclcpp::Service<Addints>::SharedPtr server_;
+  rclcpp::Service<Addints>::SharedPtr server_;
 };
 
 
