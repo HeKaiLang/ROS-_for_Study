@@ -3,7 +3,8 @@
   "output_dir": "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces/rosidl_generator_cpp/base_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource",
   "idl_tuples": [
-    "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces/rosidl_adapter/base_interfaces:msg/Student.idl"
+    "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces/rosidl_adapter/base_interfaces:msg/Student.idl",
+    "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces/rosidl_adapter/base_interfaces:srv/Addints.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp",
@@ -21,6 +22,7 @@
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__builder.hpp.em",
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
-    "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces/rosidl_adapter/base_interfaces/msg/Student.idl"
+    "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces/rosidl_adapter/base_interfaces/msg/Student.idl",
+    "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces/rosidl_adapter/base_interfaces/srv/Addints.idl"
   ]
 }

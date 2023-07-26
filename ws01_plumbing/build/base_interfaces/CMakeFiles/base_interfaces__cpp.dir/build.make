@@ -70,6 +70,10 @@ CMakeFiles/base_interfaces__cpp: rosidl_generator_cpp/base_interfaces/msg/studen
 CMakeFiles/base_interfaces__cpp: rosidl_generator_cpp/base_interfaces/msg/detail/student__builder.hpp
 CMakeFiles/base_interfaces__cpp: rosidl_generator_cpp/base_interfaces/msg/detail/student__struct.hpp
 CMakeFiles/base_interfaces__cpp: rosidl_generator_cpp/base_interfaces/msg/detail/student__traits.hpp
+CMakeFiles/base_interfaces__cpp: rosidl_generator_cpp/base_interfaces/srv/addints.hpp
+CMakeFiles/base_interfaces__cpp: rosidl_generator_cpp/base_interfaces/srv/detail/addints__builder.hpp
+CMakeFiles/base_interfaces__cpp: rosidl_generator_cpp/base_interfaces/srv/detail/addints__struct.hpp
+CMakeFiles/base_interfaces__cpp: rosidl_generator_cpp/base_interfaces/srv/detail/addints__traits.hpp
 
 rosidl_generator_cpp/base_interfaces/msg/student.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
 rosidl_generator_cpp/base_interfaces/msg/student.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
@@ -87,6 +91,7 @@ rosidl_generator_cpp/base_interfaces/msg/student.hpp: /opt/ros/humble/share/rosi
 rosidl_generator_cpp/base_interfaces/msg/student.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/base_interfaces/msg/student.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/base_interfaces/msg/student.hpp: rosidl_adapter/base_interfaces/msg/Student.idl
+rosidl_generator_cpp/base_interfaces/msg/student.hpp: rosidl_adapter/base_interfaces/srv/Addints.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces/rosidl_generator_cpp__arguments.json
 
@@ -99,11 +104,27 @@ rosidl_generator_cpp/base_interfaces/msg/detail/student__struct.hpp: rosidl_gene
 rosidl_generator_cpp/base_interfaces/msg/detail/student__traits.hpp: rosidl_generator_cpp/base_interfaces/msg/student.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/base_interfaces/msg/detail/student__traits.hpp
 
+rosidl_generator_cpp/base_interfaces/srv/addints.hpp: rosidl_generator_cpp/base_interfaces/msg/student.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/base_interfaces/srv/addints.hpp
+
+rosidl_generator_cpp/base_interfaces/srv/detail/addints__builder.hpp: rosidl_generator_cpp/base_interfaces/msg/student.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/base_interfaces/srv/detail/addints__builder.hpp
+
+rosidl_generator_cpp/base_interfaces/srv/detail/addints__struct.hpp: rosidl_generator_cpp/base_interfaces/msg/student.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/base_interfaces/srv/detail/addints__struct.hpp
+
+rosidl_generator_cpp/base_interfaces/srv/detail/addints__traits.hpp: rosidl_generator_cpp/base_interfaces/msg/student.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/base_interfaces/srv/detail/addints__traits.hpp
+
 base_interfaces__cpp: CMakeFiles/base_interfaces__cpp
 base_interfaces__cpp: rosidl_generator_cpp/base_interfaces/msg/detail/student__builder.hpp
 base_interfaces__cpp: rosidl_generator_cpp/base_interfaces/msg/detail/student__struct.hpp
 base_interfaces__cpp: rosidl_generator_cpp/base_interfaces/msg/detail/student__traits.hpp
 base_interfaces__cpp: rosidl_generator_cpp/base_interfaces/msg/student.hpp
+base_interfaces__cpp: rosidl_generator_cpp/base_interfaces/srv/addints.hpp
+base_interfaces__cpp: rosidl_generator_cpp/base_interfaces/srv/detail/addints__builder.hpp
+base_interfaces__cpp: rosidl_generator_cpp/base_interfaces/srv/detail/addints__struct.hpp
+base_interfaces__cpp: rosidl_generator_cpp/base_interfaces/srv/detail/addints__traits.hpp
 base_interfaces__cpp: CMakeFiles/base_interfaces__cpp.dir/build.make
 .PHONY : base_interfaces__cpp
 

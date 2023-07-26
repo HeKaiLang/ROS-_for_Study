@@ -11,6 +11,8 @@ find_package(rclcpp REQUIRED)
 find_package(base_interfaces REQUIRED)
 
 add_executable(demo01_server src/demo01_server.cpp)
+add_executable(demo02_client src/demo02_client.cpp)
+
 target_include_directories(demo01_server PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>)
@@ -20,8 +22,14 @@ ament_target_dependencies(
   "rclcpp"
   "base_interfaces"
 )
+ament_target_dependencies(
+  demo02_client
+  "rclcpp"
+  "base_interfaces"
+)
 
 install(TARGETS demo01_server
+                demo02_client
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)

@@ -206,4 +206,7 @@ CMakeFiles/base_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/
  /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces/rosidl_generator_c/base_interfaces/msg/detail/student__struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
- /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces/rosidl_generator_c/base_interfaces/msg/detail/student__functions.h
+ /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces/rosidl_generator_c/base_interfaces/msg/detail/student__functions.h \
+ /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces/rosidl_generator_c/base_interfaces/srv/detail/addints__type_support.h \
+ /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces/rosidl_generator_c/base_interfaces/srv/detail/addints__struct.h \
+ /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces/rosidl_generator_c/base_interfaces/srv/detail/addints__functions.h

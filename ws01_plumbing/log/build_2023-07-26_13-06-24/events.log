@@ -1,0 +1,88 @@
+[0.000000] (-) TimerEvent: {}
+[0.000865] (-) JobUnselected: {'identifier': 'base_interfaces'}
+[0.000961] (-) JobUnselected: {'identifier': 'cpp01_topic_re'}
+[0.000978] (-) JobUnselected: {'identifier': 'py01_topic_re'}
+[0.000993] (-) JobUnselected: {'identifier': 'py02_service'}
+[0.001014] (cpp02_service) JobQueued: {'identifier': 'cpp02_service', 'dependencies': OrderedDict([('base_interfaces', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces')])}
+[0.001042] (cpp02_service) JobStarted: {'identifier': 'cpp02_service'}
+[0.011517] (cpp02_service) JobProgress: {'identifier': 'cpp02_service', 'progress': 'cmake'}
+[0.011754] (cpp02_service) Command: {'cmd': ['/usr/bin/cmake', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp02_service', '-DCMAKE_INSTALL_PREFIX=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp02_service'], 'cwd': '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp02_service', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'kl'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kl'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.80.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/github-desktop.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1761'), ('SYSTEMD_EXEC_PID', '1977'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5448'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kl'), ('JOURNAL_STREAM', '8:27409'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/XX:@/tmp/.ICE-unix/1920,unix/XX:/tmp/.ICE-unix/1920'), ('INVOCATION_ID', 'd404d0399c2d40048a3c4c1501419f95'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CBBW81'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e1b967d37d.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'Unity'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp02_service'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('LOCAL_GIT_DIRECTORY', '/usr/lib/github-desktop/resources/app/git'), ('CMAKE_PREFIX_PATH', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.074670] (cpp02_service) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.099929] (-) TimerEvent: {}
+[0.136553] (cpp02_service) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.145539] (cpp02_service) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.200035] (-) TimerEvent: {}
+[0.232953] (cpp02_service) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.238057] (cpp02_service) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.239570] (cpp02_service) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.240384] (cpp02_service) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.243438] (cpp02_service) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300151] (-) TimerEvent: {}
+[0.312531] (cpp02_service) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.319413] (cpp02_service) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.319674] (cpp02_service) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.319963] (cpp02_service) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.331376] (cpp02_service) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400263] (-) TimerEvent: {}
+[0.450627] (cpp02_service) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[0.500385] (-) TimerEvent: {}
+[0.521022] (cpp02_service) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.574530] (cpp02_service) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.578343] (cpp02_service) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.583768] (cpp02_service) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.597675] (cpp02_service) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.600471] (-) TimerEvent: {}
+[0.610781] (cpp02_service) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700705] (-) TimerEvent: {}
+[0.703656] (cpp02_service) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.709643] (cpp02_service) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.800778] (-) TimerEvent: {}
+[0.852655] (cpp02_service) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.874067] (cpp02_service) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.900883] (-) TimerEvent: {}
+[0.904754] (cpp02_service) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.924710] (cpp02_service) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.978483] (cpp02_service) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.978844] (cpp02_service) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.001017] (-) TimerEvent: {}
+[1.034507] (cpp02_service) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.035723] (cpp02_service) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.101121] (-) TimerEvent: {}
+[1.201394] (-) TimerEvent: {}
+[1.208489] (cpp02_service) StdoutLine: {'line': b'-- Found base_interfaces: 0.0.0 (/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/cmake)\n'}
+[1.219860] (cpp02_service) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.290286] (cpp02_service) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.290569] (cpp02_service) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp02_service/include>\n'}
+[1.290648] (cpp02_service) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.292087] (cpp02_service) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.294079] (cpp02_service) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.294188] (cpp02_service) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.295180] (cpp02_service) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.296242] (cpp02_service) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.301468] (-) TimerEvent: {}
+[1.305528] (cpp02_service) StdoutLine: {'line': b'-- Generating done\n'}
+[1.306681] (cpp02_service) StdoutLine: {'line': b'-- Build files have been written to: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp02_service\n'}
+[1.312644] (cpp02_service) CommandEnded: {'returncode': 0}
+[1.313120] (cpp02_service) JobProgress: {'identifier': 'cpp02_service', 'progress': 'build'}
+[1.313900] (cpp02_service) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp02_service', '--', '-j8', '-l8'], 'cwd': '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp02_service', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'kl'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kl'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.80.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/github-desktop.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1761'), ('SYSTEMD_EXEC_PID', '1977'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5448'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kl'), ('JOURNAL_STREAM', '8:27409'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/XX:@/tmp/.ICE-unix/1920,unix/XX:/tmp/.ICE-unix/1920'), ('INVOCATION_ID', 'd404d0399c2d40048a3c4c1501419f95'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CBBW81'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e1b967d37d.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'Unity'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp02_service'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('LOCAL_GIT_DIRECTORY', '/usr/lib/github-desktop/resources/app/git'), ('CMAKE_PREFIX_PATH', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces:/opt/ros/humble')]), 'shell': False}
+[1.348909] (cpp02_service) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo02_client.dir/src/demo02_client.cpp.o\x1b[0m\n'}
+[1.349069] (cpp02_service) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo01_server.dir/src/demo01_server.cpp.o\x1b[0m\n'}
+[1.401585] (-) TimerEvent: {}
+[1.489959] (cpp02_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp02_service/src/demo02_client.cpp:2:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kstd_msgs/msg/string.hpp: \xe6\xb2\xa1\xe6\x9c\x89\xe9\x82\xa3\xe4\xb8\xaa\xe6\x96\x87\xe4\xbb\xb6\xe6\x88\x96\xe7\x9b\xae\xe5\xbd\x95\n'}
+[1.490186] (cpp02_service) StderrLine: {'line': b'    2 | #include \x1b[01;31m\x1b[K"std_msgs/msg/string.hpp"\x1b[m\x1b[K\n'}
+[1.490266] (cpp02_service) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.490333] (cpp02_service) StderrLine: {'line': b'compilation terminated.\n'}
+[1.493261] (cpp02_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:2:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kstd_msgs/msg/string.hpp: \xe6\xb2\xa1\xe6\x9c\x89\xe9\x82\xa3\xe4\xb8\xaa\xe6\x96\x87\xe4\xbb\xb6\xe6\x88\x96\xe7\x9b\xae\xe5\xbd\x95\n'}
+[1.493446] (cpp02_service) StderrLine: {'line': b'    2 | #include \x1b[01;31m\x1b[K"std_msgs/msg/string.hpp"\x1b[m\x1b[K\n'}
+[1.493521] (cpp02_service) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.493588] (cpp02_service) StderrLine: {'line': b'compilation terminated.\n'}
+[1.493690] (cpp02_service) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/demo02_client.dir/build.make:76\xef\xbc\x9aCMakeFiles/demo02_client.dir/src/demo02_client.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[1.493797] (cpp02_service) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165\xef\xbc\x9aCMakeFiles/demo02_client.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[1.493892] (cpp02_service) StderrLine: {'line': b'gmake[1]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbb\xbb\xe5\x8a\xa1....\n'}
+[1.496921] (cpp02_service) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/demo01_server.dir/build.make:76\xef\xbc\x9aCMakeFiles/demo01_server.dir/src/demo01_server.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[1.497085] (cpp02_service) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139\xef\xbc\x9aCMakeFiles/demo01_server.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[1.497268] (cpp02_service) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[1.498998] (cpp02_service) CommandEnded: {'returncode': 2}
+[1.501698] (-) TimerEvent: {}
+[1.525919] (cpp02_service) JobEnded: {'identifier': 'cpp02_service', 'rc': 2}
+[1.536672] (-) EventReactorShutdown: {}

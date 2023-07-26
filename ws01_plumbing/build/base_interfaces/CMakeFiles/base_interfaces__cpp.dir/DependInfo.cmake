@@ -15,6 +15,10 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces/rosidl_generator_cpp/base_interfaces/msg/detail/student__builder.hpp" "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces/rosidl_generator_cpp/base_interfaces/msg/student.hpp"
   "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces/rosidl_generator_cpp/base_interfaces/msg/detail/student__struct.hpp" "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces/rosidl_generator_cpp/base_interfaces/msg/student.hpp"
   "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces/rosidl_generator_cpp/base_interfaces/msg/detail/student__traits.hpp" "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces/rosidl_generator_cpp/base_interfaces/msg/student.hpp"
+  "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces/rosidl_generator_cpp/base_interfaces/srv/addints.hpp" "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces/rosidl_generator_cpp/base_interfaces/msg/student.hpp"
+  "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces/rosidl_generator_cpp/base_interfaces/srv/detail/addints__builder.hpp" "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces/rosidl_generator_cpp/base_interfaces/msg/student.hpp"
+  "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces/rosidl_generator_cpp/base_interfaces/srv/detail/addints__struct.hpp" "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces/rosidl_generator_cpp/base_interfaces/msg/student.hpp"
+  "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces/rosidl_generator_cpp/base_interfaces/srv/detail/addints__traits.hpp" "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces/rosidl_generator_cpp/base_interfaces/msg/student.hpp"
   )
 
 

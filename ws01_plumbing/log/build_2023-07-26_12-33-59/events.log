@@ -1,0 +1,310 @@
+[0.000000] (-) TimerEvent: {}
+[0.000190] (-) JobUnselected: {'identifier': 'cpp01_topic_re'}
+[0.000240] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.000273] (-) JobUnselected: {'identifier': 'py01_topic_re'}
+[0.001084] (-) JobUnselected: {'identifier': 'py02_service'}
+[0.001127] (base_interfaces) JobQueued: {'identifier': 'base_interfaces', 'dependencies': OrderedDict()}
+[0.001149] (base_interfaces) JobStarted: {'identifier': 'base_interfaces'}
+[0.021848] (base_interfaces) JobProgress: {'identifier': 'base_interfaces', 'progress': 'cmake'}
+[0.022126] (base_interfaces) JobProgress: {'identifier': 'base_interfaces', 'progress': 'build'}
+[0.022628] (base_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'kl'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kl'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.80.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/github-desktop.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1761'), ('SYSTEMD_EXEC_PID', '1977'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5448'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kl'), ('JOURNAL_STREAM', '8:27409'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/XX:@/tmp/.ICE-unix/1920,unix/XX:/tmp/.ICE-unix/1920'), ('INVOCATION_ID', 'd404d0399c2d40048a3c4c1501419f95'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CBBW81'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e1b967d37d.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'Unity'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('LOCAL_GIT_DIRECTORY', '/usr/lib/github-desktop/resources/app/git'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100000] (-) TimerEvent: {}
+[0.184454] (base_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.200213] (-) TimerEvent: {}
+[0.300631] (-) TimerEvent: {}
+[0.360113] (base_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.364711] (base_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.370767] (base_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.400697] (-) TimerEvent: {}
+[0.451411] (base_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500793] (-) TimerEvent: {}
+[0.601079] (-) TimerEvent: {}
+[0.700691] (base_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.701136] (-) TimerEvent: {}
+[0.801353] (-) TimerEvent: {}
+[0.849039] (base_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.901463] (-) TimerEvent: {}
+[1.001870] (-) TimerEvent: {}
+[1.030987] (base_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.049031] (base_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.066471] (base_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.066655] (base_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.066736] (base_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.081906] (base_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.095320] (base_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.101955] (-) TimerEvent: {}
+[1.135932] (base_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.142344] (base_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces\n'}
+[1.158318] (base_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.164282] (base_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.170162] (base_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_base_interfaces\n'}
+[1.202165] (-) TimerEvent: {}
+[1.302646] (-) TimerEvent: {}
+[1.378232] (base_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.378741] (base_interfaces) StdoutLine: {'line': b'writing base_interfaces.egg-info/PKG-INFO\n'}
+[1.378944] (base_interfaces) StdoutLine: {'line': b'writing dependency_links to base_interfaces.egg-info/dependency_links.txt\n'}
+[1.379073] (base_interfaces) StdoutLine: {'line': b'writing top-level names to base_interfaces.egg-info/top_level.txt\n'}
+[1.383055] (base_interfaces) StdoutLine: {'line': b"reading manifest file 'base_interfaces.egg-info/SOURCES.txt'\n"}
+[1.383432] (base_interfaces) StdoutLine: {'line': b"writing manifest file 'base_interfaces.egg-info/SOURCES.txt'\n"}
+[1.402736] (-) TimerEvent: {}
+[1.405622] (base_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_base_interfaces_egg\n'}
+[1.496131] (base_interfaces) StdoutLine: {'line': b'[  5%] Built target base_interfaces__cpp\n'}
+[1.502858] (-) TimerEvent: {}
+[1.503100] (base_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.503253] (base_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.504357] (base_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.511024] (base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_generator_c\x1b[0m\n'}
+[1.519790] (base_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces/srv/detail/addints__functions.c.o\x1b[0m\n'}
+[1.520142] (base_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces/msg/detail/student__functions.c.o\x1b[0m\n'}
+[1.603723] (-) TimerEvent: {}
+[1.704058] (-) TimerEvent: {}
+[1.767828] (base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.776097] (base_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces/msg/student__type_support.cpp.o\x1b[0m\n'}
+[1.776306] (base_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces/srv/addints__type_support.cpp.o\x1b[0m\n'}
+[1.804217] (-) TimerEvent: {}
+[1.836990] (base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.846152] (base_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces/msg/detail/student__type_support.cpp.o\x1b[0m\n'}
+[1.846355] (base_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces/srv/detail/addints__type_support.cpp.o\x1b[0m\n'}
+[1.872581] (base_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32m\x1b[1mLinking C shared library libbase_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[1.887429] (base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.899941] (base_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces/msg/detail/dds_fastrtps/student__type_support.cpp.o\x1b[0m\n'}
+[1.900673] (base_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces/srv/detail/dds_fastrtps/addints__type_support.cpp.o\x1b[0m\n'}
+[1.904297] (-) TimerEvent: {}
+[2.004670] (-) TimerEvent: {}
+[2.079597] (base_interfaces) StdoutLine: {'line': b'[ 35%] Built target base_interfaces__rosidl_generator_c\n'}
+[2.088980] (base_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.094813] (base_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.104779] (-) TimerEvent: {}
+[2.205083] (-) TimerEvent: {}
+[2.305410] (-) TimerEvent: {}
+[2.406547] (-) TimerEvent: {}
+[2.461296] (base_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libbase_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.465384] (base_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.506667] (-) TimerEvent: {}
+[2.523267] (base_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libbase_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.535483] (base_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libbase_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.538762] (base_interfaces) StdoutLine: {'line': b'[ 51%] Built target base_interfaces__rosidl_typesupport_cpp\n'}
+[2.539435] (base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[2.550696] (base_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/base_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces/srv/detail/addints__type_support.c.o\x1b[0m\n'}
+[2.550920] (base_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/base_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces/msg/detail/student__type_support.c.o\x1b[0m\n'}
+[2.583299] (base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[2.592142] (base_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libbase_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.598161] (base_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces/srv/detail/addints__type_support_c.cpp.o\x1b[0m\n'}
+[2.598389] (base_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces/msg/detail/student__type_support_c.cpp.o\x1b[0m\n'}
+[2.606765] (-) TimerEvent: {}
+[2.620043] (base_interfaces) StdoutLine: {'line': b'[ 64%] Built target base_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[2.627158] (base_interfaces) StdoutLine: {'line': b'[ 64%] Built target base_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[2.632313] (base_interfaces) StdoutLine: {'line': b'[ 64%] Built target base_interfaces__rosidl_typesupport_introspection_c\n'}
+[2.706878] (-) TimerEvent: {}
+[2.741987] (base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[2.749776] (base_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces/msg/student__type_support.cpp.o\x1b[0m\n'}
+[2.751961] (base_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces/srv/addints__type_support.cpp.o\x1b[0m\n'}
+[2.782146] (base_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libbase_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.807010] (-) TimerEvent: {}
+[2.811017] (base_interfaces) StdoutLine: {'line': b'[ 71%] Built target base_interfaces__rosidl_typesupport_c\n'}
+[2.869613] (base_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libbase_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.907194] (-) TimerEvent: {}
+[2.925662] (base_interfaces) StdoutLine: {'line': b'[ 74%] Built target base_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[2.939299] (base_interfaces) StdoutLine: {'line': b'[ 74%] Built target base_interfaces\n'}
+[2.951956] (base_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.007482] (-) TimerEvent: {}
+[3.107946] (-) TimerEvent: {}
+[3.208545] (-) TimerEvent: {}
+[3.291370] (base_interfaces) StdoutLine: {'line': b'[ 76%] Built target base_interfaces__py\n'}
+[3.297547] (base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_generator_py\x1b[0m\n'}
+[3.307260] (base_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/base_interfaces__rosidl_generator_py.dir/rosidl_generator_py/base_interfaces/msg/_student_s.c.o\x1b[0m\n'}
+[3.307677] (base_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/base_interfaces__rosidl_generator_py.dir/rosidl_generator_py/base_interfaces/srv/_addints_s.c.o\x1b[0m\n'}
+[3.308596] (-) TimerEvent: {}
+[3.389844] (base_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/base_interfaces/libbase_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[3.408744] (-) TimerEvent: {}
+[3.421398] (base_interfaces) StdoutLine: {'line': b'[ 84%] Built target base_interfaces__rosidl_generator_py\n'}
+[3.428915] (base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[3.429140] (base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[3.429228] (base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[3.438035] (base_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/base_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.438254] (base_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/base_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.438362] (base_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/base_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.508860] (-) TimerEvent: {}
+[3.509149] (base_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/base_interfaces/base_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.509368] (base_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/base_interfaces/base_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.519810] (base_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/base_interfaces/base_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.534700] (base_interfaces) StdoutLine: {'line': b'[100%] Built target base_interfaces__rosidl_typesupport_c__pyext\n'}
+[3.534914] (base_interfaces) StdoutLine: {'line': b'[100%] Built target base_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[3.545783] (base_interfaces) StdoutLine: {'line': b'[100%] Built target base_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.554170] (base_interfaces) CommandEnded: {'returncode': 0}
+[3.593474] (base_interfaces) JobProgress: {'identifier': 'base_interfaces', 'progress': 'install'}
+[3.599216] (base_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces'], 'cwd': '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'kl'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kl'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.80.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/github-desktop.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1761'), ('SYSTEMD_EXEC_PID', '1977'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5448'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kl'), ('JOURNAL_STREAM', '8:27409'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/XX:@/tmp/.ICE-unix/1920,unix/XX:/tmp/.ICE-unix/1920'), ('INVOCATION_ID', 'd404d0399c2d40048a3c4c1501419f95'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CBBW81'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e1b967d37d.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'Unity'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/base_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('LOCAL_GIT_DIRECTORY', '/usr/lib/github-desktop/resources/app/git'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.604246] (base_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.604568] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/ament_index/resource_index/rosidl_interfaces/base_interfaces\n'}
+[3.604626] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces\n'}
+[3.604676] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/msg\n'}
+[3.604725] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail\n'}
+[3.604775] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__struct.h\n'}
+[3.604822] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__functions.c\n'}
+[3.604872] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__type_support.h\n'}
+[3.604941] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__functions.h\n'}
+[3.605031] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.605100] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/msg/student.h\n'}
+[3.605148] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/srv\n'}
+[3.605195] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail\n'}
+[3.605240] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/addints__functions.c\n'}
+[3.605285] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/addints__functions.h\n'}
+[3.605332] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/addints__type_support.h\n'}
+[3.605378] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/addints__struct.h\n'}
+[3.605422] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/srv/addints.h\n'}
+[3.605467] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/environment/library_path.sh\n'}
+[3.605533] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/environment/library_path.dsv\n'}
+[3.605609] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/lib/libbase_interfaces__rosidl_generator_c.so\n'}
+[3.605689] (base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/lib/libbase_interfaces__rosidl_generator_c.so" to ""\n'}
+[3.605737] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces\n'}
+[3.605782] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/msg\n'}
+[3.605827] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail\n'}
+[3.605870] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__rosidl_typesupport_fastrtps_c.h\n'}
+[3.605914] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.605959] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/srv\n'}
+[3.606018] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail\n'}
+[3.606058] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/addints__rosidl_typesupport_fastrtps_c.h\n'}
+[3.606097] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[3.606154] (base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.606230] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces\n'}
+[3.606284] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/msg\n'}
+[3.606340] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail\n'}
+[3.606402] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__type_support.c\n'}
+[3.606459] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__rosidl_typesupport_introspection_c.h\n'}
+[3.606505] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.606547] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/srv\n'}
+[3.606589] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail\n'}
+[3.606655] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/addints__type_support.c\n'}
+[3.606698] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/addints__rosidl_typesupport_introspection_c.h\n'}
+[3.606738] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[3.606799] (base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.606876] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_c.so\n'}
+[3.607040] (base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[3.607123] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces\n'}
+[3.607176] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/msg\n'}
+[3.607220] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail\n'}
+[3.607277] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__struct.hpp\n'}
+[3.607321] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__traits.hpp\n'}
+[3.607374] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__builder.hpp\n'}
+[3.607443] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/msg/student.hpp\n'}
+[3.607488] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/srv\n'}
+[3.607545] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail\n'}
+[3.607588] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/addints__traits.hpp\n'}
+[3.607633] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/addints__builder.hpp\n'}
+[3.607696] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/addints__struct.hpp\n'}
+[3.607766] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/srv/addints.hpp\n'}
+[3.607827] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces\n'}
+[3.607873] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/msg\n'}
+[3.607916] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail\n'}
+[3.607958] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/dds_fastrtps\n'}
+[3.608020] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.608063] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.608117] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/srv\n'}
+[3.608156] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail\n'}
+[3.608205] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/dds_fastrtps\n'}
+[3.608264] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/addints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.608313] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.608379] (base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.608425] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces\n'}
+[3.608489] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/msg\n'}
+[3.608533] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail\n'}
+[3.608577] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__type_support.cpp\n'}
+[3.608619] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.608662] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/srv\n'}
+[3.608731] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail\n'}
+[3.608774] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/addints__type_support.cpp\n'}
+[3.608814] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/addints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.608855] (-) TimerEvent: {}
+[3.608943] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[3.609027] (base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.609093] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_cpp.so\n'}
+[3.609220] (base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[3.609403] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/environment/pythonpath.sh\n'}
+[3.609466] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/environment/pythonpath.dsv\n'}
+[3.609552] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces-0.0.0-py3.10.egg-info\n'}
+[3.609599] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.609644] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.609716] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.609764] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.609842] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces\n'}
+[3.609921] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.609999] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.610054] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.610117] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.610180] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[3.610259] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/msg\n'}
+[3.610308] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/msg/_student_s.c\n'}
+[3.610375] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/msg/_student.py\n'}
+[3.610440] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/msg/__init__.py\n'}
+[3.610505] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/libbase_interfaces__rosidl_generator_py.so\n'}
+[3.610575] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.610669] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/srv\n'}
+[3.610766] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/srv/_addints.py\n'}
+[3.610866] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/srv/_addints_s.c\n'}
+[3.610941] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/srv/__init__.py\n'}
+[3.611128] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/__init__.py\n'}
+[3.639209] (base_interfaces) StdoutLine: {'line': b"Listing '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces'...\n"}
+[3.639418] (base_interfaces) StdoutLine: {'line': b"Compiling '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/__init__.py'...\n"}
+[3.639507] (base_interfaces) StdoutLine: {'line': b"Listing '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/msg'...\n"}
+[3.639566] (base_interfaces) StdoutLine: {'line': b"Compiling '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/msg/__init__.py'...\n"}
+[3.639610] (base_interfaces) StdoutLine: {'line': b"Compiling '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/msg/_student.py'...\n"}
+[3.639650] (base_interfaces) StdoutLine: {'line': b"Listing '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/srv'...\n"}
+[3.639691] (base_interfaces) StdoutLine: {'line': b"Compiling '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/srv/__init__.py'...\n"}
+[3.639729] (base_interfaces) StdoutLine: {'line': b"Compiling '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/srv/_addints.py'...\n"}
+[3.643106] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.643269] (base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.643394] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.643594] (base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.643734] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.643891] (base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.643984] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/lib/libbase_interfaces__rosidl_generator_py.so\n'}
+[3.644198] (base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/lib/libbase_interfaces__rosidl_generator_py.so" to ""\n'}
+[3.644268] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/msg/Student.idl\n'}
+[3.644330] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/srv/Addints.idl\n'}
+[3.644397] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/msg/Student.msg\n'}
+[3.644458] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/srv/Addints.srv\n'}
+[3.644522] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/srv/Addints_Request.msg\n'}
+[3.644583] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/srv/Addints_Response.msg\n'}
+[3.644646] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/ament_index/resource_index/package_run_dependencies/base_interfaces\n'}
+[3.644717] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/ament_index/resource_index/parent_prefix_path/base_interfaces\n'}
+[3.644763] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/environment/ament_prefix_path.sh\n'}
+[3.644830] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/environment/ament_prefix_path.dsv\n'}
+[3.644891] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/environment/path.sh\n'}
+[3.645004] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/environment/path.dsv\n'}
+[3.645092] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/local_setup.bash\n'}
+[3.645168] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/local_setup.sh\n'}
+[3.645214] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/local_setup.zsh\n'}
+[3.645261] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/local_setup.dsv\n'}
+[3.645318] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/package.dsv\n'}
+[3.645377] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/ament_index/resource_index/packages/base_interfaces\n'}
+[3.645446] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_cExport.cmake\n'}
+[3.645496] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.645565] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.645636] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.645700] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.645749] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.645813] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[3.645870] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.645920] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_cppExport.cmake\n'}
+[3.645989] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.646038] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.646113] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.646156] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.646207] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[3.646276] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.646326] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_pyExport.cmake\n'}
+[3.646402] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.646446] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[3.646489] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.646532] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.646578] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.646620] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.646662] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.646703] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.646745] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/cmake/base_interfacesConfig.cmake\n'}
+[3.646789] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/cmake/base_interfacesConfig-version.cmake\n'}
+[3.646833] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/package.xml\n'}
+[3.648029] (base_interfaces) CommandEnded: {'returncode': 0}
+[3.708953] (-) TimerEvent: {}
+[3.731556] (base_interfaces) JobEnded: {'identifier': 'base_interfaces', 'rc': 0}
+[3.732717] (-) EventReactorShutdown: {}

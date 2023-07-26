@@ -67,6 +67,9 @@ include CMakeFiles/base_interfaces.dir/compiler_depend.make
 include CMakeFiles/base_interfaces.dir/progress.make
 
 CMakeFiles/base_interfaces: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/base_interfaces/msg/Student.msg
+CMakeFiles/base_interfaces: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/base_interfaces/srv/Addints.srv
+CMakeFiles/base_interfaces: rosidl_cmake/srv/Addints_Request.msg
+CMakeFiles/base_interfaces: rosidl_cmake/srv/Addints_Response.msg
 
 base_interfaces: CMakeFiles/base_interfaces
 base_interfaces: CMakeFiles/base_interfaces.dir/build.make

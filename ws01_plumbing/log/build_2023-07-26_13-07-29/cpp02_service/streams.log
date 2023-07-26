@@ -1,0 +1,57 @@
+[0.012s] Invoking command in '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp02_service': AMENT_PREFIX_PATH=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp02_service -- -j8 -l8
+[0.045s] [ 25%] [32mBuilding CXX object CMakeFiles/demo02_client.dir/src/demo02_client.cpp.o[0m
+[0.045s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_server.dir/src/demo01_server.cpp.o[0m
+[1.826s] [01m[K/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:32:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+[1.826s]    32 |   rclcpp::Publisher<[01;31m[Kstd_msgs[m[K::msg::String>::SharedPtr publisher_;
+[1.826s]       |                     [01;31m[K^~~~~~~~[m[K
+[1.826s] [01m[K/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:32:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.826s]    32 |   rclcpp::Publisher<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr publisher_;
+[1.826s]       |                                          [01;31m[K^[m[K
+[1.826s] [01m[K/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:32:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.826s]    32 |   rclcpp::Publisher<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K publisher_;
+[1.827s]       |                                             [01;31m[K^~~~~~~~~[m[K
+[1.827s]       |                                                      [32m[K;[m[K
+[1.828s] [01m[K/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:32:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[1.828s]    32 |   rclcpp::Publisher<std_msgs::msg::String>::SharedPtr [01;31m[Kpublisher_[m[K;
+[1.828s]       |                                                       [01;31m[K^~~~~~~~~~[m[K
+[1.829s]       |                                                       [32m[Krmw_publisher_t[m[K
+[1.836s] [01m[K/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:[m[K In constructor ‘[01m[KAddintsServer::AddintsServer()[m[K’:
+[1.836s] [01m[K/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:12:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[1.836s]    12 |     [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::String>("chatter",10);
+[1.836s]       |     [01;31m[K^~~~~~~~~~[m[K
+[1.836s]       |     [32m[Krmw_publisher_t[m[K
+[1.841s] [01m[K/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:12:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+[1.841s]    12 |     publisher_ = this->create_publisher<[01;31m[Kstd_msgs[m[K::msg::String>("chatter",10);
+[1.841s]       |                                         [01;31m[K^~~~~~~~[m[K
+[1.841s] [01m[K/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:12:24:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[1.841s]    12 |     publisher_ = this->[01;31m[Kcreate_publisher<std_msgs::msg::String>[m[K("chatter",10);
+[1.841s]       |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.841s] [01m[K/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:12:63:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KAddintsServer::create_publisher<<expression error> >(const char [8], int)[m[K’
+[1.841s]    12 |     publisher_ = [01;31m[Kthis->create_publisher<std_msgs::msg::String>("chatter",10)[m[K;
+[1.841s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[1.844s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.844s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[1.844s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.844s]                  from [01m[K/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:1[m[K:
+[1.844s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[1.844s]   195 |   [01;36m[Kcreate_publisher[m[K(
+[1.844s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[1.844s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.844s] [01m[K/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:12:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.844s]    12 |     publisher_ = [01;31m[Kthis->create_publisher<std_msgs::msg::String>("chatter",10)[m[K;
+[1.844s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[1.853s] [01m[K/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:[m[K In member function ‘[01m[Kvoid AddintsServer::on_timer()[m[K’:
+[1.853s] [01m[K/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:20:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ has not been declared
+[1.853s]    20 |       auto message = [01;31m[Kstd_msgs[m[K::msg::String();
+[1.853s]       |                      [01;31m[K^~~~~~~~[m[K
+[1.858s] [01m[K/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:26:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[1.858s]    26 |       [01;31m[Kpublisher_[m[K ->publish(message);
+[1.859s]       |       [01;31m[K^~~~~~~~~~[m[K
+[1.859s]       |       [32m[Krmw_publisher_t[m[K
+[2.216s] gmake[2]: *** [CMakeFiles/demo01_server.dir/build.make:76：CMakeFiles/demo01_server.dir/src/demo01_server.cpp.o] 错误 1
+[2.217s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/demo01_server.dir/all] 错误 2
+[2.217s] gmake[1]: *** 正在等待未完成的任务....
+[2.252s] [ 75%] [32m[1mLinking CXX executable demo02_client[0m
+[2.450s] [ 75%] Built target demo02_client
+[2.450s] gmake: *** [Makefile:146：all] 错误 2
+[2.452s] Invoked command in '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp02_service' returned '2': AMENT_PREFIX_PATH=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp02_service -- -j8 -l8

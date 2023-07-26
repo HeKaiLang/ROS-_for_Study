@@ -1,0 +1,92 @@
+[0.000000] (-) TimerEvent: {}
+[0.000483] (-) JobUnselected: {'identifier': 'base_interfaces'}
+[0.000528] (-) JobUnselected: {'identifier': 'cpp01_topic_re'}
+[0.000878] (-) JobUnselected: {'identifier': 'py01_topic_re'}
+[0.000898] (-) JobUnselected: {'identifier': 'py02_service'}
+[0.000914] (cpp02_service) JobQueued: {'identifier': 'cpp02_service', 'dependencies': OrderedDict([('base_interfaces', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces')])}
+[0.000933] (cpp02_service) JobStarted: {'identifier': 'cpp02_service'}
+[0.008851] (cpp02_service) JobProgress: {'identifier': 'cpp02_service', 'progress': 'cmake'}
+[0.009350] (cpp02_service) JobProgress: {'identifier': 'cpp02_service', 'progress': 'build'}
+[0.009911] (cpp02_service) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp02_service', '--', '-j8', '-l8'], 'cwd': '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp02_service', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'kl'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kl'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.80.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/github-desktop.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1761'), ('SYSTEMD_EXEC_PID', '1977'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5448'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kl'), ('JOURNAL_STREAM', '8:27409'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/XX:@/tmp/.ICE-unix/1920,unix/XX:/tmp/.ICE-unix/1920'), ('INVOCATION_ID', 'd404d0399c2d40048a3c4c1501419f95'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CBBW81'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e1b967d37d.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'Unity'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp02_service'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('LOCAL_GIT_DIRECTORY', '/usr/lib/github-desktop/resources/app/git'), ('CMAKE_PREFIX_PATH', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.045462] (cpp02_service) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/demo02_client.dir/src/demo02_client.cpp.o\x1b[0m\n'}
+[0.045733] (cpp02_service) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo01_server.dir/src/demo01_server.cpp.o\x1b[0m\n'}
+[0.099152] (-) TimerEvent: {}
+[0.199574] (-) TimerEvent: {}
+[0.299903] (-) TimerEvent: {}
+[0.400398] (-) TimerEvent: {}
+[0.500813] (-) TimerEvent: {}
+[0.601111] (-) TimerEvent: {}
+[0.701546] (-) TimerEvent: {}
+[0.802042] (-) TimerEvent: {}
+[0.902518] (-) TimerEvent: {}
+[1.002855] (-) TimerEvent: {}
+[1.103144] (-) TimerEvent: {}
+[1.203474] (-) TimerEvent: {}
+[1.303852] (-) TimerEvent: {}
+[1.404258] (-) TimerEvent: {}
+[1.504723] (-) TimerEvent: {}
+[1.605111] (-) TimerEvent: {}
+[1.705583] (-) TimerEvent: {}
+[1.806149] (-) TimerEvent: {}
+[1.826633] (cpp02_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:32:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.826927] (cpp02_service) StderrLine: {'line': b'   32 |   rclcpp::Publisher<\x1b[01;31m\x1b[Kstd_msgs\x1b[m\x1b[K::msg::String>::SharedPtr publisher_;\n'}
+[1.827017] (cpp02_service) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.827084] (cpp02_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:32:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.827155] (cpp02_service) StderrLine: {'line': b'   32 |   rclcpp::Publisher<std_msgs::msg::String\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr publisher_;\n'}
+[1.827225] (cpp02_service) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.827297] (cpp02_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:32:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[1.827355] (cpp02_service) StderrLine: {'line': b'   32 |   rclcpp::Publisher<std_msgs::msg::String>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K publisher_;\n'}
+[1.827423] (cpp02_service) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.827491] (cpp02_service) StderrLine: {'line': b'      |                                                      \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.829185] (cpp02_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:32:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.829318] (cpp02_service) StderrLine: {'line': b'   32 |   rclcpp::Publisher<std_msgs::msg::String>::SharedPtr \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K;\n'}
+[1.829366] (cpp02_service) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.829409] (cpp02_service) StderrLine: {'line': b'      |                                                       \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[1.836566] (cpp02_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KAddintsServer::AddintsServer()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.836727] (cpp02_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:12:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.836776] (cpp02_service) StderrLine: {'line': b'   12 |     \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K = this->create_publisher<std_msgs::msg::String>("chatter",10);\n'}
+[1.836819] (cpp02_service) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.836861] (cpp02_service) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[1.841785] (cpp02_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:12:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.841939] (cpp02_service) StderrLine: {'line': b'   12 |     publisher_ = this->create_publisher<\x1b[01;31m\x1b[Kstd_msgs\x1b[m\x1b[K::msg::String>("chatter",10);\n'}
+[1.841987] (cpp02_service) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.842044] (cpp02_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:12:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[1.842088] (cpp02_service) StderrLine: {'line': b'   12 |     publisher_ = this->\x1b[01;31m\x1b[Kcreate_publisher<std_msgs::msg::String>\x1b[m\x1b[K("chatter",10);\n'}
+[1.842148] (cpp02_service) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.842198] (cpp02_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:12:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KAddintsServer::create_publisher<<expression error> >(const char [8], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.842242] (cpp02_service) StderrLine: {'line': b'   12 |     publisher_ = \x1b[01;31m\x1b[Kthis->create_publisher<std_msgs::msg::String>("chatter",10)\x1b[m\x1b[K;\n'}
+[1.842282] (cpp02_service) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.844566] (cpp02_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.844710] (cpp02_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.844756] (cpp02_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.844798] (cpp02_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:1\x1b[m\x1b[K:\n'}
+[1.844849] (cpp02_service) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.844903] (cpp02_service) StderrLine: {'line': b'  195 |   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[1.844943] (cpp02_service) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.844983] (cpp02_service) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.845023] (cpp02_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:12:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.845062] (cpp02_service) StderrLine: {'line': b'   12 |     publisher_ = \x1b[01;31m\x1b[Kthis->create_publisher<std_msgs::msg::String>("chatter",10)\x1b[m\x1b[K;\n'}
+[1.845102] (cpp02_service) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.853532] (cpp02_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid AddintsServer::on_timer()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.853709] (cpp02_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:20:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msgs\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.853756] (cpp02_service) StderrLine: {'line': b'   20 |       auto message = \x1b[01;31m\x1b[Kstd_msgs\x1b[m\x1b[K::msg::String();\n'}
+[1.853798] (cpp02_service) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.859177] (cpp02_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:26:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.859361] (cpp02_service) StderrLine: {'line': b'   26 |       \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K ->publish(message);\n'}
+[1.859444] (cpp02_service) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.859495] (cpp02_service) StderrLine: {'line': b'      |       \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[1.906323] (-) TimerEvent: {}
+[2.006742] (-) TimerEvent: {}
+[2.107054] (-) TimerEvent: {}
+[2.207447] (-) TimerEvent: {}
+[2.217001] (cpp02_service) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/demo01_server.dir/build.make:76\xef\xbc\x9aCMakeFiles/demo01_server.dir/src/demo01_server.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[2.217640] (cpp02_service) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139\xef\xbc\x9aCMakeFiles/demo01_server.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[2.217715] (cpp02_service) StderrLine: {'line': b'gmake[1]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbb\xbb\xe5\x8a\xa1....\n'}
+[2.252523] (cpp02_service) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable demo02_client\x1b[0m\n'}
+[2.307569] (-) TimerEvent: {}
+[2.407844] (-) TimerEvent: {}
+[2.450223] (cpp02_service) StdoutLine: {'line': b'[ 75%] Built target demo02_client\n'}
+[2.451006] (cpp02_service) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[2.452510] (cpp02_service) CommandEnded: {'returncode': 2}
+[2.480177] (cpp02_service) JobEnded: {'identifier': 'cpp02_service', 'rc': 2}
+[2.490571] (-) EventReactorShutdown: {}
