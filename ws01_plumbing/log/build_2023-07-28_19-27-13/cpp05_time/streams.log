@@ -1,0 +1,68 @@
+[0.009s] Invoking command in '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp05_time': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp05_time -DCMAKE_INSTALL_PREFIX=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp05_time
+[0.413s] -- The C compiler identification is GNU 11.3.0
+[0.689s] -- The CXX compiler identification is GNU 11.3.0
+[0.704s] -- Detecting C compiler ABI info
+[0.817s] -- Detecting C compiler ABI info - done
+[0.822s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.824s] -- Detecting C compile features
+[0.825s] -- Detecting C compile features - done
+[0.831s] -- Detecting CXX compiler ABI info
+[0.904s] -- Detecting CXX compiler ABI info - done
+[0.912s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.912s] -- Detecting CXX compile features
+[0.912s] -- Detecting CXX compile features - done
+[0.927s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.061s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.199s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[1.394s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.402s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.420s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.446s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.477s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.571s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.577s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.689s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.712s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.746s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.766s] -- Looking for pthread.h
+[1.823s] -- Looking for pthread.h - found
+[1.824s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.880s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.880s] -- Found Threads: TRUE  
+[2.050s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.120s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.121s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp05_time/include>
+[2.121s] -- Configured cppcheck exclude dirs and/or files: 
+[2.122s] -- Added test 'lint_cmake' to check CMake code style
+[2.123s] -- Added test 'uncrustify' to check C / C++ code style
+[2.123s] -- Configured uncrustify additional arguments: 
+[2.124s] -- Added test 'xmllint' to check XML markup files
+[2.127s] -- Configuring done
+[2.136s] -- Generating done
+[2.137s] -- Build files have been written to: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp05_time
+[2.143s] Invoked command in '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp05_time' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp05_time -DCMAKE_INSTALL_PREFIX=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp05_time
+[2.144s] Invoking command in '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp05_time': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp05_time -- -j8 -l8
+[2.176s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_time.dir/src/demo01_time.cpp.o[0m
+[4.303s] [100%] [32m[1mLinking CXX executable demo01_time[0m
+[4.503s] [100%] Built target demo01_time
+[4.510s] Invoked command in '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp05_time' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp05_time -- -j8 -l8
+[4.533s] Invoking command in '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp05_time': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp05_time
+[4.540s] -- Install configuration: ""
+[4.540s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp05_time/lib/cpp05_time/demo01_time
+[4.541s] -- Set runtime path of "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp05_time/lib/cpp05_time/demo01_time" to ""
+[4.541s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp05_time/share/ament_index/resource_index/package_run_dependencies/cpp05_time
+[4.541s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp05_time/share/ament_index/resource_index/parent_prefix_path/cpp05_time
+[4.541s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp05_time/share/cpp05_time/environment/ament_prefix_path.sh
+[4.541s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp05_time/share/cpp05_time/environment/ament_prefix_path.dsv
+[4.541s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp05_time/share/cpp05_time/environment/path.sh
+[4.541s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp05_time/share/cpp05_time/environment/path.dsv
+[4.541s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp05_time/share/cpp05_time/local_setup.bash
+[4.541s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp05_time/share/cpp05_time/local_setup.sh
+[4.542s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp05_time/share/cpp05_time/local_setup.zsh
+[4.542s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp05_time/share/cpp05_time/local_setup.dsv
+[4.542s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp05_time/share/cpp05_time/package.dsv
+[4.542s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp05_time/share/ament_index/resource_index/packages/cpp05_time
+[4.542s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp05_time/share/cpp05_time/cmake/cpp05_timeConfig.cmake
+[4.542s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp05_time/share/cpp05_time/cmake/cpp05_timeConfig-version.cmake
+[4.542s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp05_time/share/cpp05_time/package.xml
+[4.544s] Invoked command in '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp05_time' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp05_time

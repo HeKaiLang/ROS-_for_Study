@@ -1,0 +1,131 @@
+[0.000000] (-) TimerEvent: {}
+[0.000195] (-) JobUnselected: {'identifier': 'base_interfaces'}
+[0.000235] (-) JobUnselected: {'identifier': 'cpp01_topic_re'}
+[0.000267] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.000289] (-) JobUnselected: {'identifier': 'cpp03_action'}
+[0.000306] (-) JobUnselected: {'identifier': 'cpp04_prarm'}
+[0.000325] (-) JobUnselected: {'identifier': 'py01_topic_re'}
+[0.000343] (-) JobUnselected: {'identifier': 'py02_service'}
+[0.000361] (-) JobUnselected: {'identifier': 'py03_action'}
+[0.000391] (-) JobUnselected: {'identifier': 'tutorails_plumbing'}
+[0.000412] (cpp05_time) JobQueued: {'identifier': 'cpp05_time', 'dependencies': OrderedDict()}
+[0.000822] (cpp05_time) JobStarted: {'identifier': 'cpp05_time'}
+[0.009131] (cpp05_time) JobProgress: {'identifier': 'cpp05_time', 'progress': 'cmake'}
+[0.009285] (cpp05_time) Command: {'cmd': ['/usr/bin/cmake', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp05_time', '-DCMAKE_INSTALL_PREFIX=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp05_time'], 'cwd': '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp05_time', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'kl'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kl'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src'), ('TERM_PROGRAM_VERSION', '1.80.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/github-desktop.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1756'), ('SYSTEMD_EXEC_PID', '1973'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4873'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kl'), ('JOURNAL_STREAM', '8:28379'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/XX:@/tmp/.ICE-unix/1946,unix/XX:/tmp/.ICE-unix/1946'), ('INVOCATION_ID', '5994994a1bdb4ab88ce0c4f819be3af7'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0EDP81'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e1b967d37d.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'Unity'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp05_time'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('LOCAL_GIT_DIRECTORY', '/usr/lib/github-desktop/resources/app/git'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099711] (-) TimerEvent: {}
+[0.200119] (-) TimerEvent: {}
+[0.300502] (-) TimerEvent: {}
+[0.400892] (-) TimerEvent: {}
+[0.414151] (cpp05_time) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.501060] (-) TimerEvent: {}
+[0.601535] (-) TimerEvent: {}
+[0.689494] (cpp05_time) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.701725] (-) TimerEvent: {}
+[0.705168] (cpp05_time) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.801922] (-) TimerEvent: {}
+[0.817982] (cpp05_time) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.823310] (cpp05_time) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.824735] (cpp05_time) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.826041] (cpp05_time) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.831989] (cpp05_time) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.902154] (-) TimerEvent: {}
+[0.904716] (cpp05_time) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.912300] (cpp05_time) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.912634] (cpp05_time) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.913248] (cpp05_time) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.928033] (cpp05_time) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.002283] (-) TimerEvent: {}
+[1.062083] (cpp05_time) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[1.102528] (-) TimerEvent: {}
+[1.200132] (cpp05_time) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.202576] (-) TimerEvent: {}
+[1.302953] (-) TimerEvent: {}
+[1.394785] (cpp05_time) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.403028] (-) TimerEvent: {}
+[1.403148] (cpp05_time) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.420430] (cpp05_time) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.446507] (cpp05_time) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.477164] (cpp05_time) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.503156] (-) TimerEvent: {}
+[1.571997] (cpp05_time) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.577454] (cpp05_time) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.603270] (-) TimerEvent: {}
+[1.689982] (cpp05_time) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.703461] (-) TimerEvent: {}
+[1.712937] (cpp05_time) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.746747] (cpp05_time) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.766611] (cpp05_time) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.803587] (-) TimerEvent: {}
+[1.824250] (cpp05_time) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.824501] (cpp05_time) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.880385] (cpp05_time) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.881227] (cpp05_time) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.903683] (-) TimerEvent: {}
+[2.003960] (-) TimerEvent: {}
+[2.051041] (cpp05_time) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.104052] (-) TimerEvent: {}
+[2.121217] (cpp05_time) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.121407] (cpp05_time) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp05_time/include>\n'}
+[2.121483] (cpp05_time) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.122954] (cpp05_time) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.124157] (cpp05_time) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.124252] (cpp05_time) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.125213] (cpp05_time) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.127694] (cpp05_time) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.136726] (cpp05_time) StdoutLine: {'line': b'-- Generating done\n'}
+[2.137496] (cpp05_time) StdoutLine: {'line': b'-- Build files have been written to: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp05_time\n'}
+[2.143403] (cpp05_time) CommandEnded: {'returncode': 0}
+[2.144097] (cpp05_time) JobProgress: {'identifier': 'cpp05_time', 'progress': 'build'}
+[2.144721] (cpp05_time) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp05_time', '--', '-j8', '-l8'], 'cwd': '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp05_time', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'kl'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kl'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src'), ('TERM_PROGRAM_VERSION', '1.80.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/github-desktop.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1756'), ('SYSTEMD_EXEC_PID', '1973'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4873'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kl'), ('JOURNAL_STREAM', '8:28379'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/XX:@/tmp/.ICE-unix/1946,unix/XX:/tmp/.ICE-unix/1946'), ('INVOCATION_ID', '5994994a1bdb4ab88ce0c4f819be3af7'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0EDP81'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e1b967d37d.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'Unity'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp05_time'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('LOCAL_GIT_DIRECTORY', '/usr/lib/github-desktop/resources/app/git'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.176431] (cpp05_time) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo01_time.dir/src/demo01_time.cpp.o\x1b[0m\n'}
+[2.204176] (-) TimerEvent: {}
+[2.304572] (-) TimerEvent: {}
+[2.405030] (-) TimerEvent: {}
+[2.505564] (-) TimerEvent: {}
+[2.605821] (-) TimerEvent: {}
+[2.706222] (-) TimerEvent: {}
+[2.806617] (-) TimerEvent: {}
+[2.906946] (-) TimerEvent: {}
+[3.007242] (-) TimerEvent: {}
+[3.107519] (-) TimerEvent: {}
+[3.207871] (-) TimerEvent: {}
+[3.308278] (-) TimerEvent: {}
+[3.408639] (-) TimerEvent: {}
+[3.509000] (-) TimerEvent: {}
+[3.609347] (-) TimerEvent: {}
+[3.709733] (-) TimerEvent: {}
+[3.810091] (-) TimerEvent: {}
+[3.910460] (-) TimerEvent: {}
+[4.010728] (-) TimerEvent: {}
+[4.110999] (-) TimerEvent: {}
+[4.211342] (-) TimerEvent: {}
+[4.303709] (cpp05_time) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable demo01_time\x1b[0m\n'}
+[4.311533] (-) TimerEvent: {}
+[4.411803] (-) TimerEvent: {}
+[4.503411] (cpp05_time) StdoutLine: {'line': b'[100%] Built target demo01_time\n'}
+[4.510224] (cpp05_time) CommandEnded: {'returncode': 0}
+[4.511892] (-) TimerEvent: {}
+[4.526442] (cpp05_time) JobProgress: {'identifier': 'cpp05_time', 'progress': 'install'}
+[4.533475] (cpp05_time) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp05_time'], 'cwd': '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp05_time', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'kl'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kl'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src'), ('TERM_PROGRAM_VERSION', '1.80.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/github-desktop.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1756'), ('SYSTEMD_EXEC_PID', '1973'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4873'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kl'), ('JOURNAL_STREAM', '8:28379'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/XX:@/tmp/.ICE-unix/1946,unix/XX:/tmp/.ICE-unix/1946'), ('INVOCATION_ID', '5994994a1bdb4ab88ce0c4f819be3af7'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0EDP81'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e1b967d37d.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'Unity'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp05_time'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('LOCAL_GIT_DIRECTORY', '/usr/lib/github-desktop/resources/app/git'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.541000] (cpp05_time) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.541176] (cpp05_time) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp05_time/lib/cpp05_time/demo01_time\n'}
+[4.541418] (cpp05_time) StdoutLine: {'line': b'-- Set runtime path of "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp05_time/lib/cpp05_time/demo01_time" to ""\n'}
+[4.541520] (cpp05_time) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp05_time/share/ament_index/resource_index/package_run_dependencies/cpp05_time\n'}
+[4.541651] (cpp05_time) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp05_time/share/ament_index/resource_index/parent_prefix_path/cpp05_time\n'}
+[4.541800] (cpp05_time) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp05_time/share/cpp05_time/environment/ament_prefix_path.sh\n'}
+[4.541893] (cpp05_time) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp05_time/share/cpp05_time/environment/ament_prefix_path.dsv\n'}
+[4.541988] (cpp05_time) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp05_time/share/cpp05_time/environment/path.sh\n'}
+[4.542079] (cpp05_time) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp05_time/share/cpp05_time/environment/path.dsv\n'}
+[4.542176] (cpp05_time) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp05_time/share/cpp05_time/local_setup.bash\n'}
+[4.542269] (cpp05_time) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp05_time/share/cpp05_time/local_setup.sh\n'}
+[4.542528] (cpp05_time) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp05_time/share/cpp05_time/local_setup.zsh\n'}
+[4.542670] (cpp05_time) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp05_time/share/cpp05_time/local_setup.dsv\n'}
+[4.542775] (cpp05_time) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp05_time/share/cpp05_time/package.dsv\n'}
+[4.542926] (cpp05_time) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp05_time/share/ament_index/resource_index/packages/cpp05_time\n'}
+[4.543076] (cpp05_time) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp05_time/share/cpp05_time/cmake/cpp05_timeConfig.cmake\n'}
+[4.543183] (cpp05_time) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp05_time/share/cpp05_time/cmake/cpp05_timeConfig-version.cmake\n'}
+[4.543294] (cpp05_time) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp05_time/share/cpp05_time/package.xml\n'}
+[4.544757] (cpp05_time) CommandEnded: {'returncode': 0}
+[4.612116] (-) TimerEvent: {}
+[4.613183] (cpp05_time) JobEnded: {'identifier': 'cpp05_time', 'rc': 0}
+[4.613642] (-) EventReactorShutdown: {}

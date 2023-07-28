@@ -1,0 +1,11 @@
+[0.000000] (-) TimerEvent: {}
+[0.000156] (-) JobUnselected: {'identifier': 'base_interfaces'}
+[0.000200] (-) JobUnselected: {'identifier': 'cpp01_topic_re'}
+[0.000231] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.000259] (-) JobUnselected: {'identifier': 'cpp03_action'}
+[0.000287] (-) JobUnselected: {'identifier': 'cpp04_prarm'}
+[0.000316] (-) JobUnselected: {'identifier': 'py01_topic_re'}
+[0.000344] (-) JobUnselected: {'identifier': 'py02_service'}
+[0.000371] (-) JobUnselected: {'identifier': 'py03_action'}
+[0.000399] (-) JobUnselected: {'identifier': 'tutorails_plumbing'}
+[0.000431] (-) EventReactorShutdown: {}
