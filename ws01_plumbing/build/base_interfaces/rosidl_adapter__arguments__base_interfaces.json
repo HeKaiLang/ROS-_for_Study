@@ -2,6 +2,7 @@
   "package_name": "base_interfaces",
   "non_idl_tuples": [
     "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/base_interfaces:msg/Student.msg",
-    "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/base_interfaces:srv/Addints.srv"
+    "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/base_interfaces:srv/Addints.srv",
+    "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/base_interfaces:action/Progress.action"
   ]
 }

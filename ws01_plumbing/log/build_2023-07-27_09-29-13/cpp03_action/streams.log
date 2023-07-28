@@ -1,0 +1,75 @@
+[0.014s] Invoking command in '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp03_action': AMENT_PREFIX_PATH=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp03_action -DCMAKE_INSTALL_PREFIX=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp03_action
+[0.075s] -- The C compiler identification is GNU 11.3.0
+[0.126s] -- The CXX compiler identification is GNU 11.3.0
+[0.137s] -- Detecting C compiler ABI info
+[0.198s] -- Detecting C compiler ABI info - done
+[0.205s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.206s] -- Detecting C compile features
+[0.208s] -- Detecting C compile features - done
+[0.212s] -- Detecting CXX compiler ABI info
+[0.277s] -- Detecting CXX compiler ABI info - done
+[0.283s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.283s] -- Detecting CXX compile features
+[0.283s] -- Detecting CXX compile features - done
+[0.290s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.417s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.498s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.542s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.547s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.552s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.563s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.577s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.664s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.670s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.792s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.814s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.849s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.865s] -- Looking for pthread.h
+[0.919s] -- Looking for pthread.h - found
+[0.919s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.974s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.975s] -- Found Threads: TRUE  
+[1.138s] -- Found rclcpp_action: 16.0.4 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.210s] -- Found base_interfaces: 0.0.0 (/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/share/base_interfaces/cmake)
+[1.247s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.328s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.328s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp03_action/include>
+[1.328s] -- Configured cppcheck exclude dirs and/or files: 
+[1.330s] -- Added test 'lint_cmake' to check CMake code style
+[1.331s] -- Added test 'uncrustify' to check C / C++ code style
+[1.331s] -- Configured uncrustify additional arguments: 
+[1.332s] -- Added test 'xmllint' to check XML markup files
+[1.333s] -- Configuring done
+[1.342s] -- Generating done
+[1.343s] -- Build files have been written to: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp03_action
+[1.350s] Invoked command in '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp03_action' returned '0': AMENT_PREFIX_PATH=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp03_action -DCMAKE_INSTALL_PREFIX=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp03_action
+[1.352s] Invoking command in '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp03_action': AMENT_PREFIX_PATH=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp03_action -- -j8 -l8
+[1.387s] [ 50%] [32mBuilding CXX object CMakeFiles/demo02_action_client.dir/src/demo02_action_client.cpp.o[0m
+[1.387s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_action_server.dir/src/demo01_action_server.cpp.o[0m
+[3.682s] [100%] [32m[1mLinking CXX executable demo01_action_server[0m
+[3.683s] [100%] [32m[1mLinking CXX executable demo02_action_client[0m
+[3.886s] [100%] Built target demo02_action_client
+[3.886s] [100%] Built target demo01_action_server
+[3.893s] Invoked command in '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp03_action' returned '0': AMENT_PREFIX_PATH=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp03_action -- -j8 -l8
+[3.914s] Invoking command in '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp03_action': AMENT_PREFIX_PATH=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp03_action
+[3.919s] -- Install configuration: ""
+[3.919s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp03_action/lib/cpp03_action/demo01_action_server
+[3.920s] -- Set runtime path of "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp03_action/lib/cpp03_action/demo01_action_server" to ""
+[3.920s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp03_action/lib/cpp03_action/demo02_action_client
+[3.920s] -- Set runtime path of "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp03_action/lib/cpp03_action/demo02_action_client" to ""
+[3.920s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp03_action/share/ament_index/resource_index/package_run_dependencies/cpp03_action
+[3.920s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp03_action/share/ament_index/resource_index/parent_prefix_path/cpp03_action
+[3.921s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/ament_prefix_path.sh
+[3.921s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/ament_prefix_path.dsv
+[3.921s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/path.sh
+[3.921s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/path.dsv
+[3.921s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.bash
+[3.921s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.sh
+[3.921s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.zsh
+[3.921s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.dsv
+[3.921s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.dsv
+[3.921s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp03_action/share/ament_index/resource_index/packages/cpp03_action
+[3.921s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp03_action/share/cpp03_action/cmake/cpp03_actionConfig.cmake
+[3.922s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp03_action/share/cpp03_action/cmake/cpp03_actionConfig-version.cmake
+[3.922s] -- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.xml
+[3.924s] Invoked command in '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp03_action' returned '0': AMENT_PREFIX_PATH=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp03_action

@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from base_interfaces/action/Progress.action
+// generated code does not contain a copyright notice
+
+
+module base_interfaces {
+  module action {
+    struct Progress_Goal {
+      @verbatim (language="comment", text=
+        "request")
+      int32 num;
+    };
+    struct Progress_Result {
+      @verbatim (language="comment", text=
+        "response")
+      int32 sum;
+    };
+    struct Progress_Feedback {
+      @verbatim (language="comment", text=
+        "progress")
+      double progress;
+    };
+  };
+};
