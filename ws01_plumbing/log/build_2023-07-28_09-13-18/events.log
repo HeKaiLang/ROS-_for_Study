@@ -1,0 +1,102 @@
+[0.000000] (-) TimerEvent: {}
+[0.001514] (-) JobUnselected: {'identifier': 'base_interfaces'}
+[0.001826] (-) JobUnselected: {'identifier': 'cpp01_topic_re'}
+[0.001880] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.001910] (-) JobUnselected: {'identifier': 'cpp03_action'}
+[0.001943] (-) JobUnselected: {'identifier': 'py01_topic_re'}
+[0.002132] (-) JobUnselected: {'identifier': 'py02_service'}
+[0.002164] (-) JobUnselected: {'identifier': 'py03_action'}
+[0.002178] (cpp04_prarm) JobQueued: {'identifier': 'cpp04_prarm', 'dependencies': OrderedDict()}
+[0.002194] (cpp04_prarm) JobStarted: {'identifier': 'cpp04_prarm'}
+[0.009464] (cpp04_prarm) JobProgress: {'identifier': 'cpp04_prarm', 'progress': 'cmake'}
+[0.010200] (cpp04_prarm) JobProgress: {'identifier': 'cpp04_prarm', 'progress': 'build'}
+[0.010726] (cpp04_prarm) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp04_prarm', '--', '-j8', '-l8'], 'cwd': '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp04_prarm', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'kl'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kl'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src'), ('TERM_PROGRAM_VERSION', '1.80.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/github-desktop.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1753'), ('SYSTEMD_EXEC_PID', '1967'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4716'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kl'), ('JOURNAL_STREAM', '8:33903'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/XX:@/tmp/.ICE-unix/1940,unix/XX:/tmp/.ICE-unix/1940'), ('INVOCATION_ID', 'cf4dec3106cd4bafb4c4fa35474d2ba5'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1CMU81'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e1b967d37d.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp04_prarm:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py02_service:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp03_action:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp02_service:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'Unity'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp04_prarm'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py02_service/lib/python3.10/site-packages:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re/lib/python3.10/site-packages:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('LOCAL_GIT_DIRECTORY', '/usr/lib/github-desktop/resources/app/git'), ('CMAKE_PREFIX_PATH', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp04_prarm:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp03_action:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp02_service:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py02_service:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re:/opt/ros/humble')]), 'shell': False}
+[0.027941] (cpp04_prarm) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099621] (-) TimerEvent: {}
+[0.134876] (cpp04_prarm) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.152437] (cpp04_prarm) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.154171] (cpp04_prarm) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.158423] (cpp04_prarm) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.166938] (cpp04_prarm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.177831] (cpp04_prarm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199925] (-) TimerEvent: {}
+[0.214920] (cpp04_prarm) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.215990] (cpp04_prarm) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.292793] (cpp04_prarm) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.299966] (-) TimerEvent: {}
+[0.396230] (cpp04_prarm) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.400068] (-) TimerEvent: {}
+[0.448910] (cpp04_prarm) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.449091] (cpp04_prarm) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src/cpp04_prarm/include>\n'}
+[0.449150] (cpp04_prarm) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.449519] (cpp04_prarm) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.450108] (cpp04_prarm) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.450158] (cpp04_prarm) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.450315] (cpp04_prarm) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.450919] (cpp04_prarm) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.459874] (cpp04_prarm) StdoutLine: {'line': b'-- Generating done\n'}
+[0.460829] (cpp04_prarm) StdoutLine: {'line': b'-- Build files have been written to: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp04_prarm\n'}
+[0.478725] (cpp04_prarm) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo00_param\x1b[0m\n'}
+[0.485108] (cpp04_prarm) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/demo01_param_server.dir/src/demo01_param_server.cpp.o\x1b[0m\n'}
+[0.485371] (cpp04_prarm) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/demo02_param_client.dir/src/demo02_param_client.cpp.o\x1b[0m\n'}
+[0.491237] (cpp04_prarm) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo00_param.dir/src/demo00_param.cpp.o\x1b[0m\n'}
+[0.500191] (-) TimerEvent: {}
+[0.601249] (-) TimerEvent: {}
+[0.701691] (-) TimerEvent: {}
+[0.802310] (-) TimerEvent: {}
+[0.902690] (-) TimerEvent: {}
+[1.003075] (-) TimerEvent: {}
+[1.103504] (-) TimerEvent: {}
+[1.203831] (-) TimerEvent: {}
+[1.304207] (-) TimerEvent: {}
+[1.404575] (-) TimerEvent: {}
+[1.504933] (-) TimerEvent: {}
+[1.605331] (-) TimerEvent: {}
+[1.705691] (-) TimerEvent: {}
+[1.806095] (-) TimerEvent: {}
+[1.906721] (-) TimerEvent: {}
+[2.007157] (-) TimerEvent: {}
+[2.107564] (-) TimerEvent: {}
+[2.207952] (-) TimerEvent: {}
+[2.308274] (-) TimerEvent: {}
+[2.408664] (-) TimerEvent: {}
+[2.509011] (-) TimerEvent: {}
+[2.609334] (-) TimerEvent: {}
+[2.709841] (-) TimerEvent: {}
+[2.810179] (-) TimerEvent: {}
+[2.838881] (cpp04_prarm) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable demo01_param_server\x1b[0m\n'}
+[2.852101] (cpp04_prarm) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable demo02_param_client\x1b[0m\n'}
+[2.868328] (cpp04_prarm) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable demo00_param\x1b[0m\n'}
+[2.910317] (-) TimerEvent: {}
+[2.944472] (cpp04_prarm) StdoutLine: {'line': b'[100%] Built target demo01_param_server\n'}
+[2.960105] (cpp04_prarm) StdoutLine: {'line': b'[100%] Built target demo02_param_client\n'}
+[2.976777] (cpp04_prarm) StdoutLine: {'line': b'[100%] Built target demo00_param\n'}
+[2.983959] (cpp04_prarm) CommandEnded: {'returncode': 0}
+[3.003492] (cpp04_prarm) JobProgress: {'identifier': 'cpp04_prarm', 'progress': 'install'}
+[3.009208] (cpp04_prarm) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp04_prarm'], 'cwd': '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp04_prarm', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'kl'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kl'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/src'), ('TERM_PROGRAM_VERSION', '1.80.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/github-desktop.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1753'), ('SYSTEMD_EXEC_PID', '1967'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4716'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kl'), ('JOURNAL_STREAM', '8:33903'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/XX:@/tmp/.ICE-unix/1940,unix/XX:/tmp/.ICE-unix/1940'), ('INVOCATION_ID', 'cf4dec3106cd4bafb4c4fa35474d2ba5'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1CMU81'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e1b967d37d.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp04_prarm:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py02_service:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp03_action:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp02_service:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'Unity'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/build/cpp04_prarm'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py02_service/lib/python3.10/site-packages:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re/lib/python3.10/site-packages:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('LOCAL_GIT_DIRECTORY', '/usr/lib/github-desktop/resources/app/git'), ('CMAKE_PREFIX_PATH', '/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp04_prarm:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp03_action:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp02_service:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp01_topic_re:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/base_interfaces:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py02_service:/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/py01_topic_re:/opt/ros/humble')]), 'shell': False}
+[3.010378] (-) TimerEvent: {}
+[3.014716] (cpp04_prarm) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.015019] (cpp04_prarm) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp04_prarm/lib/cpp04_prarm/demo00_param\n'}
+[3.015170] (cpp04_prarm) StdoutLine: {'line': b'-- Set runtime path of "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp04_prarm/lib/cpp04_prarm/demo00_param" to ""\n'}
+[3.015241] (cpp04_prarm) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp04_prarm/lib/cpp04_prarm/demo01_param_server\n'}
+[3.015613] (cpp04_prarm) StdoutLine: {'line': b'-- Set runtime path of "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp04_prarm/lib/cpp04_prarm/demo01_param_server" to ""\n'}
+[3.015738] (cpp04_prarm) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp04_prarm/lib/cpp04_prarm/demo02_param_client\n'}
+[3.015868] (cpp04_prarm) StdoutLine: {'line': b'-- Set runtime path of "/home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp04_prarm/lib/cpp04_prarm/demo02_param_client" to ""\n'}
+[3.015977] (cpp04_prarm) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp04_prarm/share/ament_index/resource_index/package_run_dependencies/cpp04_prarm\n'}
+[3.016033] (cpp04_prarm) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp04_prarm/share/ament_index/resource_index/parent_prefix_path/cpp04_prarm\n'}
+[3.016098] (cpp04_prarm) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp04_prarm/share/cpp04_prarm/environment/ament_prefix_path.sh\n'}
+[3.016155] (cpp04_prarm) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp04_prarm/share/cpp04_prarm/environment/ament_prefix_path.dsv\n'}
+[3.016215] (cpp04_prarm) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp04_prarm/share/cpp04_prarm/environment/path.sh\n'}
+[3.016260] (cpp04_prarm) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp04_prarm/share/cpp04_prarm/environment/path.dsv\n'}
+[3.016319] (cpp04_prarm) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp04_prarm/share/cpp04_prarm/local_setup.bash\n'}
+[3.016389] (cpp04_prarm) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp04_prarm/share/cpp04_prarm/local_setup.sh\n'}
+[3.016433] (cpp04_prarm) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp04_prarm/share/cpp04_prarm/local_setup.zsh\n'}
+[3.016478] (cpp04_prarm) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp04_prarm/share/cpp04_prarm/local_setup.dsv\n'}
+[3.016522] (cpp04_prarm) StdoutLine: {'line': b'-- Installing: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp04_prarm/share/cpp04_prarm/package.dsv\n'}
+[3.016588] (cpp04_prarm) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp04_prarm/share/ament_index/resource_index/packages/cpp04_prarm\n'}
+[3.016633] (cpp04_prarm) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp04_prarm/share/cpp04_prarm/cmake/cpp04_prarmConfig.cmake\n'}
+[3.016677] (cpp04_prarm) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp04_prarm/share/cpp04_prarm/cmake/cpp04_prarmConfig-version.cmake\n'}
+[3.016721] (cpp04_prarm) StdoutLine: {'line': b'-- Up-to-date: /home/kl/VS_CODE/Github_respository/ROS-_for_Study/ws01_plumbing/install/cpp04_prarm/share/cpp04_prarm/package.xml\n'}
+[3.017989] (cpp04_prarm) CommandEnded: {'returncode': 0}
+[3.054449] (cpp04_prarm) JobEnded: {'identifier': 'cpp04_prarm', 'rc': 0}
+[3.054997] (-) EventReactorShutdown: {}
